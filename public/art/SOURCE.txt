@@ -1,0 +1,2 @@
+Generated specifically for SIGNAL with the built-in image-generation tool. Conceptual imagery, not client data or completed transactions. WebP delivery variants are 1440px and 640px, quality 85. No third-party image requests.
+Prompts: headset in graphite/titanium on a dark teal stone desk; abstract pipeline columns and glass blocks on a sales desk; connected glass and graphite workflow sculpture; contemporary residential home at twilight. All prompts specify cinematic editorial photography, no people, no brands, no readable text, no watermarks.

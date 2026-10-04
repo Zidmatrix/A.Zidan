@@ -20,6 +20,10 @@ assert(html.includes('src="/A.Zidan/profile.webp"')&&html.includes('src="/A.Zida
 assert(html.includes('Abdulrahman')&&html.includes('Zidan'),'Identity missing');
 console.log('PASS: all sections, anchors, assets, local fonts, embedded CV and PDF download and exported file references.');
 
-for (const name of ['Michigan','Florida','Texas','California','Georgia','Arizona','North Carolina','Pennsylvania']) assert(html.includes(name),`Missing market: ${name}`);
+for (const name of ['Michigan','Florida','Texas','California','Georgia','Arizona','North Carolina','Pennsylvania','Virginia','Tennessee','Indiana','Illinois','Ohio']) assert(html.includes(name),`Missing market: ${name}`);
 assert(html.includes('abdulra7man-zidan/?isSelfProfile=true'),'Correct LinkedIn missing');
 assert(html.includes('For more than two years'),'Direct-client experience missing');
+
+for(const kind of ['calling','pipeline','systems','markets'])for(const suffix of ['', '-small'])assert((await stat(`out/art/${kind}${suffix}.webp`)).size>0,'Missing art variant');
+assert(html.includes('Switch to light theme')&&html.includes('13 U.S. MARKETS'),'Theme control or market count missing');
+assert((html.match(/class="map-marker"/g)||[]).length===13,'All thirteen map markers must render');

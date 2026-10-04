@@ -62,3 +62,11 @@ Stable npm package versions were checked before installation; exact dependencies
 Eight state markets use a keyboard-accessible static SVG world map, centered on the U.S. by default, with selectable pins and U.S./world views. Mobile uses an interactive state list. Coordinates are separate in `src/lib/markets.ts`; public-domain Natural Earth geometry is bundled locally. No API key or external map requests.
 
 The original two-page CV is rendered faithfully in a framed in-site reader with pagination, zoom, accessible extracted text, and an optional original-PDF download. All VIEW CV links navigate to this section. PDF bytes are unchanged. The LinkedIn URL and more-than-two-years direct-client/company experience follow the user's latest supplied information.
+
+## SIGNAL visual and theme update
+
+Markets now include Virginia, Tennessee, Indiana, Illinois and Ohio, bringing the total to 13. Marker count and coverage labels come from the separate state data array.
+
+The header uses the real uploaded portrait. A persistent Light/Dark theme control is available in the header at all widths; preference is applied before paint and stored locally. The opening brief identifies U.S. real estate sales experience directly.
+
+Four bespoke conceptual images (headset, pipeline desk, interconnected systems, residential architecture) are locally bundled as 1440px and 640px WebP variants with responsive loading. These are editorial illustrations of the work, not client records or proof of property transactions. The real portrait, original video and unchanged CV remain integrated.

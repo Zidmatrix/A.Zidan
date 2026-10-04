@@ -9,5 +9,10 @@ export const markets = [
  {name:'Arizona',coordinates:[-111.0937,34.0489]},
  {name:'North Carolina',coordinates:[-79.0193,35.7596]},
  {name:'Pennsylvania',coordinates:[-77.1945,41.2033]},
+ {name:'Virginia',coordinates:[-79.0,37.6]},
+ {name:'Tennessee',coordinates:[-86.58,35.52]},
+ {name:'Indiana',coordinates:[-86.13,40.0]},
+ {name:'Illinois',coordinates:[-89.2,40.0]},
+ {name:'Ohio',coordinates:[-82.9,40.4]},
 ] as const;
 export const marketDescription = 'U.S. real estate market — cold calling & lead management.';

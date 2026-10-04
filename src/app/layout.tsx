@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import './additions.css';
+import './premium.css';
 export const metadata: Metadata = {
  metadataBase: new URL('https://zidmatrix.github.io'),
  title:'Abdulrahman Zidan — Real Estate Sales & Lead Management',
@@ -11,5 +12,5 @@ export const metadata: Metadata = {
  icons:{icon:'/A.Zidan/icon.svg'},
 };
 export default function RootLayout({children}:{children:React.ReactNode}) {
- return <html lang="en"><body>{children}</body></html>;
+ return <html lang="en" suppressHydrationWarning><head><script dangerouslySetInnerHTML={{__html:`try{document.documentElement.dataset.theme=localStorage.getItem('az-signal-theme')==='light'?'light':'dark'}catch(e){document.documentElement.dataset.theme='dark'}`}}/></head><body>{children}</body></html>;
 }
