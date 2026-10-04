@@ -38,7 +38,7 @@ DESIGN.md                    design and motion system
 * `public/profile.webp` — optimized portrait used by the page.
 * `public/intro.mp4` — real uploaded introduction, optimized for web delivery.
 * `public/intro-poster.jpg` — still from the actual introduction.
-* `public/Abdulrahman-Zidan-CV.pdf` — unchanged uploaded PDF; opens with `target="_blank" rel="noreferrer"`.
+* `public/Abdulrahman-Zidan-CV.pdf` — unchanged uploaded PDF; available through the in-page reader and DOWNLOAD CV.
 * `public/fonts/` — self-hosted display/body fonts and their licenses.
 
 The real assets are already included. The user does not need to rename or upload them separately. Missing portrait/video states keep the rest of the page usable.
@@ -52,7 +52,13 @@ Published site: https://zidmatrix.github.io/A.Zidan/.
 Native modal dialogs, keyboard focus restoration, Escape-to-close, visible focus, service arrow-key navigation, semantic sections, reduced motion, responsive touch controls, native video controls, WebGL constructor/error/context-loss fallback and resource cleanup. No hover-only essential information.
 
 ## Validation status
-Production build, TypeScript and export asset checks pass. Live testing verified native video playback (67.5 seconds), the original two-page CV in a new tab, keyboard service tabs, method/company/tool selectors, command search, mobile navigation and responsive layouts. The cloud browser disables WebGL, so the SVG fallback was verified; hardware WebGL and native fullscreen remain unverified in this environment. Portrait and video poster load from the published Pages site.
+Production build, TypeScript and export asset checks pass. Live testing verified native video playback (67.5 seconds), the original two-page CV through the in-page reader, keyboard service tabs, method/company/tool selectors, command search, mobile navigation and responsive layouts. The cloud browser disables WebGL, so the SVG fallback was verified; hardware WebGL and native fullscreen remain unverified in this environment. Portrait and video poster load from the published Pages site.
 
 ## Versions
 Stable npm package versions were checked before installation; exact dependencies and lockfile are included. Next.js 16.3.8, React 19.3.0, Motion 14.0.0 and Three.js 0.186.1. Three.js is used directly to avoid an unnecessary renderer layer. No alpha or WebGPU dependency.
+
+## Markets and CV update
+
+Eight state markets use a keyboard-accessible static SVG world map, centered on the U.S. by default, with selectable pins and U.S./world views. Mobile uses an interactive state list. Coordinates are separate in `src/lib/markets.ts`; public-domain Natural Earth geometry is bundled locally. No API key or external map requests.
+
+The original two-page CV is rendered faithfully in a framed in-site reader with pagination, zoom, accessible extracted text, and an optional original-PDF download. All VIEW CV links navigate to this section. PDF bytes are unchanged. The LinkedIn URL and more-than-two-years direct-client/company experience follow the user's latest supplied information.

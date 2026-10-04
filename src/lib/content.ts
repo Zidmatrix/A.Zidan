@@ -1,6 +1,6 @@
 export const base = '/A.Zidan';
 export const asset = (file: string) => `${base}/${file}`;
-export const nav = ['About', 'Services', 'Experience', 'Proof', 'Systems', 'Introduction', 'Contact'];
+export const nav = ['About', 'Services', 'Experience', 'Markets', 'Proof', 'Systems', 'Introduction', 'CV', 'Contact'];
 export const services = [
  {name:'Real Estate Cold Calling', verb:'Start the conversation.', text:'Natural homeowner conversations that uncover seller motivation and identify the next opportunity.', details:['Rapport & objection handling','Motivation, condition & occupancy','Timeline & price expectations','Qualified handoff to acquisitions']},
  {name:'Lead Management', verb:'Keep the opportunity moving.', text:'Ownership beyond the first call. Clear qualification, consistent follow-up and a pipeline with a next action.', details:['Inbound & outbound qualification','Follow-up and lead nurturing','CRM hygiene & pipeline organization','Acquisition-ready context']},
@@ -33,4 +33,6 @@ export const systems = [
  {name:'Enzo',label:'SALES WORKSPACE',group:'Lead systems',text:'Adapt to the team’s workflow and maintain clear lead information.'},
  {name:'Apollo',label:'PROSPECT RESEARCH',group:'Lead systems',text:'Support research and prospect organization in lead-generation workflows.'},
 ];
-export const contact = {email:'abd3lra7man@gmail.com',linkedin:'https://www.linkedin.com/in/abdulrahman-zidan/',telegram:'https://t.me/ZIDAAAAAAAAN'};
+export const contact = {email:'abd3lra7man@gmail.com',linkedin:'https://www.linkedin.com/in/abdulra7man-zidan/?isSelfProfile=true',telegram:'https://t.me/ZIDAAAAAAAAN'};
+
+export const directExperience = 'For more than two years, I’ve worked directly with U.S. clients and with Egyptian and American companies.';

@@ -14,7 +14,7 @@ Native scrolling only. Pointer-reactive WebGL lead paths on desktop; animated pr
 Reduced motion removes the ticker, entry animations, cursor and magnetic effects, and uses static SVG instead of WebGL. Mobile has a deliberately vertical composition, a full-screen navigation dialog, touch-first controls, and a lightweight SVG signal.
 
 ## Asset presentation
-Actual 640×640 portrait in a large editorial frame in About. Actual 1280×720 introduction (67.49 seconds) in an immersive native dialog with standard playback, volume, seek and fullscreen controls. Poster taken from the real video. A ~11 MB H.264/AAC fast-start MP4 is used instead of the ~35 MB original. Video is not requested until opening the player. Original CV bytes are preserved and open in a new tab.
+Actual 640×640 portrait in a large editorial frame in About. Actual 1280×720 introduction (67.49 seconds) in an immersive native dialog with standard playback, volume, seek and fullscreen controls. Poster taken from the real video. A ~11 MB H.264/AAC fast-start MP4 is used instead of the ~35 MB original. Video is not requested until opening the player. Original CV bytes are preserved and display inside the website, with the unchanged PDF available for download.
 
 ## Content accuracy
 The supplied creative brief governs site claims and contact details: 3+ years, approximately one year of Lead Manager experience, seven named companies, real estate and solar. The supplied PDF has different contact details, a 4+ years claim, an additional company and education timing; it is kept unchanged, and those discrepancies are not silently copied into site copy. Appointment setting and virtual assistance are capabilities, not invented employment records.
