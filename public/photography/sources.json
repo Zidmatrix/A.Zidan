@@ -1,0 +1,164 @@
+[
+  {
+    "section": "about",
+    "pexelsId": 30234377,
+    "photographer": "Han",
+    "source": "https://www.pexels.com/photo/minimalist-desk-setup-with-coffee-and-journal-30234377/",
+    "license": "https://www.pexels.com/license/",
+    "verified": "2026-10-04",
+    "originalDownloadDimensions": [
+      1280,
+      1919
+    ],
+    "delivery": {
+      "320": 2714,
+      "640": 7426,
+      "960": 13166
+    },
+    "quality": 75
+  },
+  {
+    "section": "services",
+    "pexelsId": 8867202,
+    "photographer": "Yan Krukau",
+    "source": "https://www.pexels.com/photo/a-person-holding-a-headset-8867202/",
+    "license": "https://www.pexels.com/license/",
+    "verified": "2026-10-04",
+    "originalDownloadDimensions": [
+      1280,
+      853
+    ],
+    "delivery": {
+      "320": 5440,
+      "640": 13840,
+      "960": 24326
+    },
+    "quality": 75
+  },
+  {
+    "section": "experience",
+    "pexelsId": 7888809,
+    "photographer": "RDNE Stock project",
+    "source": "https://www.pexels.com/photo/people-looking-at-documents-in-a-business-meeting-7888809/",
+    "license": "https://www.pexels.com/license/",
+    "verified": "2026-10-04",
+    "originalDownloadDimensions": [
+      1280,
+      1920
+    ],
+    "delivery": {
+      "320": 6962,
+      "640": 18242,
+      "960": 31380
+    },
+    "quality": 75
+  },
+  {
+    "section": "markets",
+    "pexelsId": 11467685,
+    "photographer": "8 K",
+    "source": "https://www.pexels.com/photo/drone-shot-of-a-residential-area-11467685/",
+    "license": "https://www.pexels.com/license/",
+    "verified": "2026-10-04",
+    "originalDownloadDimensions": [
+      1280,
+      719
+    ],
+    "delivery": {
+      "320": 13598,
+      "640": 43336,
+      "960": 96940
+    },
+    "quality": 55
+  },
+  {
+    "section": "proof",
+    "pexelsId": 7693144,
+    "photographer": "Yan Krukau",
+    "source": "https://www.pexels.com/photo/close-up-of-a-handshake-7693144/",
+    "license": "https://www.pexels.com/license/",
+    "verified": "2026-10-04",
+    "originalDownloadDimensions": [
+      1280,
+      1920
+    ],
+    "delivery": {
+      "320": 8146,
+      "640": 27246,
+      "960": 49906
+    },
+    "quality": 75
+  },
+  {
+    "section": "systems",
+    "pexelsId": 7109291,
+    "photographer": "Tiger Lily",
+    "source": "https://www.pexels.com/photo/a-purple-chart-on-a-computer-screen-7109291/",
+    "license": "https://www.pexels.com/license/",
+    "verified": "2026-10-04",
+    "originalDownloadDimensions": [
+      1280,
+      853
+    ],
+    "delivery": {
+      "320": 8626,
+      "640": 22096,
+      "960": 36620
+    },
+    "quality": 75
+  },
+  {
+    "section": "introduction",
+    "pexelsId": 10942517,
+    "photographer": "John Taran",
+    "source": "https://www.pexels.com/photo/photo-of-a-microphone-in-a-recording-studio-10942517/",
+    "license": "https://www.pexels.com/license/",
+    "verified": "2026-10-04",
+    "originalDownloadDimensions": [
+      1280,
+      1924
+    ],
+    "delivery": {
+      "320": 3070,
+      "640": 7198,
+      "960": 12140
+    },
+    "quality": 75
+  },
+  {
+    "section": "cv",
+    "pexelsId": 6249385,
+    "photographer": "Ryutaro Tsukata",
+    "source": "https://www.pexels.com/photo/man-writing-with-pen-on-paper-6249385/",
+    "license": "https://www.pexels.com/license/",
+    "verified": "2026-10-04",
+    "originalDownloadDimensions": [
+      1280,
+      1920
+    ],
+    "delivery": {
+      "320": 3170,
+      "640": 7314,
+      "960": 11966
+    },
+    "quality": 75
+  },
+  {
+    "section": "contact",
+    "pexelsId": 10347148,
+    "photographer": "Ron Lach",
+    "source": "https://www.pexels.com/photo/telephone-and-document-organizer-laying-on-office-desk-10347148/",
+    "license": "https://www.pexels.com/license/",
+    "verified": "2026-10-04",
+    "originalDownloadDimensions": [
+      1280,
+      853
+    ],
+    "delivery": {
+      "320": 6054,
+      "640": 22022,
+      "960": 45562
+    },
+    "quality": 75
+  }
+]

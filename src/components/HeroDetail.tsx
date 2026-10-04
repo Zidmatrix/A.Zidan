@@ -25,3 +25,9 @@ export default function HeroDetail(){
   <figcaption>PHOTOGRAPHY / RDNE STOCK PROJECT · PEXELS</figcaption>
  </figure>;
 }
+
+export function ProofCount({value,suffix='',pad=0}:{value:number;suffix?:string;pad?:number}){
+ const ref=useRef<HTMLElement>(null),[count,setCount]=useState(value);
+ useEffect(()=>{const node=ref.current;if(!node||matchMedia('(prefers-reduced-motion: reduce)').matches)return;let frame=0;const observer=new IntersectionObserver(entries=>{if(!entries.some(e=>e.isIntersecting))return;observer.disconnect();const start=performance.now();setCount(0);const tick=(now:number)=>{const p=Math.min((now-start)/850,1);setCount(Math.round(value*(1-Math.pow(1-p,3))));if(p<1)frame=requestAnimationFrame(tick);};frame=requestAnimationFrame(tick);},{threshold:.6});observer.observe(node);return ()=>{observer.disconnect();cancelAnimationFrame(frame);};},[value]);
+ return <strong ref={ref} aria-label={`${String(value).padStart(pad,'0')}${suffix}`}><span className="counter-digit" aria-hidden="true">{String(count).padStart(pad,'0')}</span>{suffix&&<span aria-hidden="true">{suffix}</span>}</strong>;
+}

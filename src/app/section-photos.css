@@ -1,0 +1,22 @@
+.section-photo{width:min(380px,100%);margin:28px 0 0;min-width:0}
+.section-photo-window{position:relative;overflow:hidden;aspect-ratio:2/1;border:1px solid var(--line);background:var(--surface)}
+.section-photo-window img{display:block;width:100%;height:calc(100% + 16px);object-fit:cover;transform:translateY(-8px);filter:grayscale(.45) saturate(.6) contrast(1.05)}
+.section-photo-window:after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(115deg,#102a2e44,#75dec71a);mix-blend-mode:color}
+.section-photo figcaption{display:flex;justify-content:space-between;flex-wrap:wrap;gap:5px 15px;margin-top:9px;color:var(--muted);font-size:7px;line-height:1.6;letter-spacing:.8px}
+.section-photo figcaption small{font-size:6px;opacity:.8}
+.photo-about{max-width:280px;margin-left:auto}
+.service-photo-row{display:flex;align-items:center;justify-content:space-between;gap:30px;margin-bottom:25px}
+.service-photo-row .service-orbit{flex-shrink:0;margin-bottom:0}
+.service-photo-row .section-photo{margin:0;max-width:260px}
+.photo-experience{max-width:350px;margin-top:25px}
+.photo-markets{max-width:280px;margin-top:35px}
+.photo-proof{max-width:260px;margin:32px 0 0 auto}
+.photo-systems{max-width:320px;margin-top:25px}
+.photo-introduction{max-width:280px;margin:28px 0 0 auto}
+.photo-cv{max-width:240px;margin:25px 0 0 auto}
+.photo-contact{max-width:340px;margin:32px 0 0 auto}
+@supports(animation-timeline:view()){@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+ .section-photo-window img{animation:section-photo-drift linear both;animation-timeline:view();animation-range:entry 0% exit 100%}
+ @keyframes section-photo-drift{from{transform:translateY(0)}to{transform:translateY(-16px)}}
+}}
+@media(max-width:600px){.section-photo{width:100%;max-width:320px;margin-top:25px}.service-photo-row{gap:22px}.service-photo-row .section-photo{max-width:210px;margin-top:0}.section-photo figcaption{font-size:6px;letter-spacing:.5px}.section-photo figcaption small{font-size:5px}}

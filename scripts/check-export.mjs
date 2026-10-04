@@ -32,3 +32,13 @@ assert(html.includes('signal-fallback')&&html.includes('service-orbit'),'Origina
 
 for(const w of [320,640,960,1280])assert((await stat(`out/photography/hero-remote-${w}.webp`)).size<120000,'Hero photo exceeds byte budget');
 assert((html.match(/class="hero-photo-detail"/g)||[]).length===1,'Hero photograph must appear once');
+
+const photoSections=['about','services','experience','markets','proof','systems','introduction','cv','contact'];
+for(const section of photoSections){
+ assert((html.match(new RegExp(`data-photo-section="${section}"`,'g'))||[]).length===1,`One stock photograph required in ${section}`);
+ for(const w of [320,640,960]){const source=await stat(`public/photography/${section}-${w}.webp`),exported=await stat(`out/photography/${section}-${w}.webp`);assert(source.size===exported.size&&source.size<100000,`Photo export or byte budget failed: ${section}/${w}`);}
+}
+const photoSources=JSON.parse(await readFile('public/photography/sources.json','utf8'));
+assert(new Set([10376213,...photoSources.map(p=>p.pexelsId)]).size===10,'Stock photographs must be unique across all ten sections');
+assert(photoSources.every(p=>p.source.startsWith('https://www.pexels.com/photo/')&&p.license==='https://www.pexels.com/license/'),'Source and licensing provenance required');
+console.log('PASS: ten unique licensed stock photos, responsive variants and production byte budgets.');
