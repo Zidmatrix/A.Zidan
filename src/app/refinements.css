@@ -1,5 +1,5 @@
 /* Static texture; no canvas, video or animation library added. */
-body:before{content:'';position:fixed;inset:0;z-index:55;pointer-events:none;opacity:.018;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23fff' filter='url(%23n)' d='M0 0h120v120H0z'/%3E%3C/svg%3E")}
+body:before{content:'';position:fixed;inset:0;z-index:55;pointer-events:none;opacity:.04;mix-blend-mode:soft-light;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23fff' filter='url(%23n)' d='M0 0h120v120H0z'/%3E%3C/svg%3E")}
 .hero:before{content:none}
 .section{position:relative;isolation:isolate}
 .experience:before,.systems:before,.contact:before{content:'';position:absolute;inset:20% 12% 15% 40%;z-index:-1;pointer-events:none;background:radial-gradient(ellipse,#75dec709,transparent 70%)}
@@ -22,3 +22,5 @@ body:before{content:'';position:fixed;inset:0;z-index:55;pointer-events:none;opa
 }
 @media(hover:none),(pointer:coarse){.hero:after{animation:none!important}.cursor-light{display:none!important}}
 @media(prefers-reduced-motion:reduce){.hero-name-first,.hero-name-last{animation:none!important}.hero-copy{animation:none!important}.section-photo-window img,.hero-photo-window img{animation:none!important}.cursor-light{display:none!important}}
+
+@media print{body:before{display:none!important}.page-progress{display:none!important}}
