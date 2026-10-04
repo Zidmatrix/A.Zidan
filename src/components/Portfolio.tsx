@@ -45,13 +45,13 @@ export default function Portfolio(){
   const sections=[...document.querySelectorAll<HTMLElement>('main section[id]')];
   const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting)entry.target.classList.add('entered');});},{threshold:.12});sections.forEach(s=>observer.observe(s));
   let scheduled=false;
-  const update=()=>{scheduled=false;let id='top';for(const section of sections){if(section.getBoundingClientRect().top<=window.innerHeight*.35)id=section.id;}setActive(id);const max=document.documentElement.scrollHeight-window.innerHeight;document.documentElement.style.setProperty('--page-progress',String(max>0?window.scrollY/max:0));};
+  const update=()=>{scheduled=false;let id='top';for(const section of sections){if(section.getBoundingClientRect().top<=window.innerHeight*.35)id=section.id;}setActive(id);const max=document.documentElement.scrollHeight-window.innerHeight;document.documentElement.style.setProperty('--page-progress',String(max>0?Math.min(1,Math.max(0,window.scrollY/max)):0));};
   const scroll=()=>{if(!scheduled){scheduled=true;requestAnimationFrame(update);}};
   const key=(event:KeyboardEvent)=>{if((event.ctrlKey||event.metaKey)&&event.key.toLowerCase()==='k'){event.preventDefault();setQuery('');setCommand(v=>!v);}};
   const pointer=(event:PointerEvent)=>{if(!matchMedia('(hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)').matches)return;document.documentElement.dataset.cursor='on';if(cursor.current){cursor.current.style.transform=`translate3d(${event.clientX}px,${event.clientY}px,0)`;cursor.current.dataset.interactive=String(!!(event.target as Element).closest('a,button'));}};
   const leave=(event:PointerEvent)=>{if(!event.relatedTarget)delete document.documentElement.dataset.cursor;};window.addEventListener('pointerout',leave);
-  window.addEventListener('scroll',scroll,{passive:true});window.addEventListener('keydown',key);window.addEventListener('pointermove',pointer,{passive:true});update();
-  return ()=>{observer.disconnect();window.removeEventListener('pointerout',leave);delete document.documentElement.dataset.cursor;window.removeEventListener('scroll',scroll);window.removeEventListener('keydown',key);window.removeEventListener('pointermove',pointer);};
+  window.addEventListener('resize',scroll);window.addEventListener('scroll',scroll,{passive:true});window.addEventListener('keydown',key);window.addEventListener('pointermove',pointer,{passive:true});update();
+  return ()=>{observer.disconnect();window.removeEventListener('pointerout',leave);delete document.documentElement.dataset.cursor;window.removeEventListener('resize',scroll);window.removeEventListener('scroll',scroll);window.removeEventListener('keydown',key);window.removeEventListener('pointermove',pointer);};
  },[]);
  const go=(id:string)=>{setMenu(false);setCommand(false);location.hash=id;};
  return <MotionConfig reducedMotion="user"><a href="#about" className="skip-link">Skip to content</a><div ref={cursor} className="cursor-light" aria-hidden="true"/><div className="page-progress" aria-hidden="true"/>
