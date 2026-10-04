@@ -29,3 +29,6 @@ assert((html.match(/class="map-marker"/g)||[]).length===13,'All thirteen map mar
 
 assert(!html.includes('art-figure')&&!html.includes('/art/'),'Added editorial photos must not render');
 assert(html.includes('signal-fallback')&&html.includes('service-orbit'),'Original signal and service artwork missing');
+
+for(const w of [320,640,960,1280])assert((await stat(`out/photography/hero-remote-${w}.webp`)).size<120000,'Hero photo exceeds byte budget');
+assert((html.match(/class="hero-photo-detail"/g)||[]).length===1,'Hero photograph must appear once');

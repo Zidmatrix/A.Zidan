@@ -1,0 +1,24 @@
+/* Hero review only: photography never overlays the signal, text or controls. */
+.hero-photo-detail{position:relative;z-index:1;align-self:flex-end;width:min(380px,100%);margin:0 0 24px}
+.hero-photo-window{position:relative;overflow:hidden;height:145px;border:1px solid var(--line);background:var(--surface)}
+.hero-photo-window img{width:100%;height:calc(100% + 20px);object-fit:cover;object-position:50% 50%;transform:translateY(-10px);filter:grayscale(.45) saturate(.55) contrast(1.08);display:block}
+.hero-photo-window:after{content:'';position:absolute;inset:0;background:linear-gradient(115deg,#102a2e55,#75dec71c);mix-blend-mode:color;pointer-events:none}
+.hero-photo-detail figcaption{color:var(--muted);font-size:7px;line-height:1.6;letter-spacing:1px;margin-top:9px}
+.hero-count-value{display:inline-block;min-width:2ch;font-variant-numeric:tabular-nums}
+.hero-copy h1>span.hero-name-first{display:inline-block}
+@media(prefers-reduced-motion:no-preference){
+ .hero-name-first,.hero-name-last{animation:hero-name-in .55s cubic-bezier(.2,.65,.25,1) both}
+ .hero-name-last{animation-delay:.12s}
+ @keyframes hero-name-in{from{opacity:.2;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+ .hero:after{content:'';position:absolute;z-index:0;inset:20% -10% 0 55%;background:radial-gradient(ellipse at 50% 50%,#75dec709,transparent 65%);pointer-events:none;animation:hero-mesh-drift 24s ease-in-out infinite alternate}
+ @keyframes hero-mesh-drift{to{transform:translate(-25px,20px)}}
+}
+.hero:before{content:'';position:absolute;inset:0;pointer-events:none;opacity:.025;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23fff' filter='url(%23n)' d='M0 0h120v120H0z'/%3E%3C/svg%3E")}
+.hero-topline,.hero-bottom{position:relative;z-index:1}
+@supports(animation-timeline:view()){
+ @media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+  .hero-photo-window img{animation:hero-photo-drift linear both;animation-timeline:view();animation-range:entry 0% exit 100%}
+  @keyframes hero-photo-drift{from{transform:translateY(0)}to{transform:translateY(-20px)}}
+ }
+}
+@media(max-width:600px){.hero-photo-detail{width:100%;margin-bottom:24px}.hero-photo-window{height:150px}.hero-photo-detail figcaption{font-size:6px}}
