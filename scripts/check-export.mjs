@@ -42,3 +42,7 @@ const photoSources=JSON.parse(await readFile('public/photography/sources.json','
 assert(new Set([10376213,...photoSources.map(p=>p.pexelsId)]).size===10,'Stock photographs must be unique across all ten sections');
 assert(photoSources.every(p=>p.source.startsWith('https://www.pexels.com/photo/')&&p.license==='https://www.pexels.com/license/'),'Source and licensing provenance required');
 console.log('PASS: ten unique licensed stock photos, responsive variants and production byte budgets.');
+
+assert(html.includes('href="mailto:abd3lra7manzidan@gmail.com"'),'Correct contact email must render');
+assert(!html.includes('abd3lra7man'+'@gmail.com'),'Incorrect contact email must not render');
+assert(html.includes('Rotate your phone to landscape'),'Phone map orientation notice missing');
