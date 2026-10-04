@@ -33,6 +33,6 @@ export const systems = [
  {name:'Enzo',label:'SALES WORKSPACE',group:'Lead systems',text:'Adapt to the team’s workflow and maintain clear lead information.'},
  {name:'Apollo',label:'PROSPECT RESEARCH',group:'Lead systems',text:'Support research and prospect organization in lead-generation workflows.'},
 ];
-export const contact = {email:'abd3lra7man@gmail.com',linkedin:'https://www.linkedin.com/in/abdulra7man-zidan/?isSelfProfile=true',telegram:'https://t.me/ZIDAAAAAAAAN'};
+export const contact = {email:'abd3lra7manzidan@gmail.com',linkedin:'https://www.linkedin.com/in/abdulra7man-zidan/?isSelfProfile=true',telegram:'https://t.me/ZIDAAAAAAAAN'};
 
 export const directExperience = 'For more than two years, I’ve worked directly with U.S. clients and with Egyptian and American companies.';
