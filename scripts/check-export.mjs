@@ -24,6 +24,8 @@ for (const name of ['Michigan','Florida','Texas','California','Georgia','Arizona
 assert(html.includes('abdulra7man-zidan/?isSelfProfile=true'),'Correct LinkedIn missing');
 assert(html.includes('For more than two years'),'Direct-client experience missing');
 
-for(const kind of ['calling','pipeline','systems','markets'])for(const suffix of ['', '-small'])assert((await stat(`out/art/${kind}${suffix}.webp`)).size>0,'Missing art variant');
 assert(html.includes('Switch to light theme')&&html.includes('13 U.S. MARKETS'),'Theme control or market count missing');
 assert((html.match(/class="map-marker"/g)||[]).length===13,'All thirteen map markers must render');
+
+assert(!html.includes('art-figure')&&!html.includes('/art/'),'Added editorial photos must not render');
+assert(html.includes('signal-fallback')&&html.includes('service-orbit'),'Original signal and service artwork missing');

@@ -1,7 +1,6 @@
 'use client';
 import {useState} from 'react';
 import {markets,marketDescription} from '@/lib/markets';
-import ArtFigure from './ArtFigure';
 import {worldPaths} from '@/lib/world-paths';
 const point=(coordinates:readonly [number,number])=>[(coordinates[0]+180)*1000/360,(90-coordinates[1])*500/180];
 export default function Markets({editorial=false}:{editorial?:boolean}){
@@ -18,6 +17,6 @@ export default function Markets({editorial=false}:{editorial?:boolean}){
     <g className="map-pin-label" aria-hidden="true" transform={`translate(${x},${y-(world?14:8)})`}><rect x={-(current.name.length*font*.61+font*2)/2} y={-font*1.35} width={current.name.length*font*.61+font*2} height={font*2.05} rx={font*.25}/><text textAnchor="middle" style={{fontSize:font}}>{current.name}</text></g>
    </svg><div className="map-foot"><span>{markets.length} STATES / REMOTE U.S. REAL ESTATE WORK</span><span>SELECT A PIN TO EXPLORE ↗</span></div></div>
    <div className="market-aside"><div className="market-detail" aria-live="polite"><span className="eyebrow">SELECTED MARKET / {String(selected+1).padStart(2,'0')}</span><h3>{current.name}</h3><p>{marketDescription}</p><span className="market-detail-note">U.S. real estate · Remote collaboration</span></div><div className="market-state-list" aria-label="Select a U.S. state market">{markets.map((m,i)=><button key={m.name} aria-pressed={selected===i} onClick={()=>setSelected(i)}><span aria-hidden="true">⌖</span>{m.name}</button>)}</div><p className="market-source">Representative state locations.<br/>Map geometry: Natural Earth.</p></div>
-  </div><ArtFigure kind="markets" caption="THE MARKET CONTEXT / U.S. RESIDENTIAL REAL ESTATE" className="market-art"/>
+  </div>
  </section>;
 }
