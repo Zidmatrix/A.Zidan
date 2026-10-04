@@ -37,21 +37,22 @@
   },
   {
     "section": "experience",
-    "pexelsId": 7888809,
-    "photographer": "RDNE Stock project",
-    "source": "https://www.pexels.com/photo/people-looking-at-documents-in-a-business-meeting-7888809/",
+    "pexelsId": 8278906,
+    "photographer": "ANTONI SHKRABA production",
+    "source": "https://www.pexels.com/photo/two-men-having-a-meeting-in-the-office-8278906/",
     "license": "https://www.pexels.com/license/",
     "verified": "2026-10-04",
     "originalDownloadDimensions": [
       1280,
-      1920
+      853
     ],
     "delivery": {
-      "320": 6962,
-      "640": 18242,
-      "960": 31380
+      "320": 8922,
+      "640": 21298,
+      "960": 35444
     },
-    "quality": 75
+    "quality": 75,
+    "assetName": "experience-men"
   },
   {
     "section": "markets",

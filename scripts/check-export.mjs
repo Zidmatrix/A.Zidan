@@ -36,7 +36,8 @@ assert((html.match(/class="hero-photo-detail"/g)||[]).length===1,'Hero photograp
 const photoSections=['about','services','experience','markets','proof','systems','introduction','cv','contact'];
 for(const section of photoSections){
  assert((html.match(new RegExp(`data-photo-section="${section}"`,'g'))||[]).length===1,`One stock photograph required in ${section}`);
- for(const w of [320,640,960]){const source=await stat(`public/photography/${section}-${w}.webp`),exported=await stat(`out/photography/${section}-${w}.webp`);assert(source.size===exported.size&&source.size<100000,`Photo export or byte budget failed: ${section}/${w}`);}
+ const photoName=section==='experience'?'experience-men':section;
+ for(const w of [320,640,960]){const source=await stat(`public/photography/${photoName}-${w}.webp`),exported=await stat(`out/photography/${photoName}-${w}.webp`);assert(source.size===exported.size&&source.size<100000,`Photo export or byte budget failed: ${section}/${w}`);}
 }
 const photoSources=JSON.parse(await readFile('public/photography/sources.json','utf8'));
 assert(new Set([10376213,...photoSources.map(p=>p.pexelsId)]).size===10,'Stock photographs must be unique across all ten sections');
