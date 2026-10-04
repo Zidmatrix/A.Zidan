@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zidmatrix.github.io/A.Zidan/sitemap.xml
