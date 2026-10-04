@@ -44,17 +44,15 @@ DESIGN.md                    design and motion system
 The real assets are already included. The user does not need to rename or upload them separately. Missing portrait/video states keep the rest of the page usable.
 
 ## GitHub Pages
-Create the public repository `Zidmatrix/A.Zidan`, with `main` as its default branch. Push this project to it. In Settings → Pages, select **GitHub Actions** as the source. The included workflow builds, checks the static export, uploads the artifact and deploys it.
+The public repository is https://github.com/Zidmatrix/A.Zidan. GitHub Actions is configured as the Pages source; pushes to `main` build and deploy automatically.
 
-Expected final URL: https://zidmatrix.github.io/A.Zidan/.
-
-The repository itself and its Pages configuration have not yet been created because the available GitHub connector has no repository-creation or Pages-settings operation; the browser requires sign-in. No deployment success is claimed until live verification.
+Published site: https://zidmatrix.github.io/A.Zidan/.
 
 ## Accessibility and resilience
 Native modal dialogs, keyboard focus restoration, Escape-to-close, visible focus, service arrow-key navigation, semantic sections, reduced motion, responsive touch controls, native video controls, WebGL constructor/error/context-loss fallback and resource cleanup. No hover-only essential information.
 
 ## Validation status
-Production build and TypeScript pass. Static export checks are run separately. Live desktop/mobile interaction, video playback, fullscreen, CV popup and WebGL runtime behavior require browser verification after deployment. The cloud browser does not permit access to this local development server.
+Production build, TypeScript and export asset checks pass. Live testing verified native video playback (67.5 seconds), the original two-page CV in a new tab, keyboard service tabs, method/company/tool selectors, command search, mobile navigation and responsive layouts. The cloud browser disables WebGL, so the SVG fallback was verified; hardware WebGL and native fullscreen remain unverified in this environment. Portrait and video poster load from the published Pages site.
 
 ## Versions
 Stable npm package versions were checked before installation; exact dependencies and lockfile are included. Next.js 16.3.8, React 19.3.0, Motion 14.0.0 and Three.js 0.186.1. Three.js is used directly to avoid an unnecessary renderer layer. No alpha or WebGPU dependency.
