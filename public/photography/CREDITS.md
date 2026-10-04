@@ -18,7 +18,7 @@ Stock imagery illustrates professional context; it does not depict Abdulrahman�
 
 - about: Han — https://www.pexels.com/photo/minimalist-desk-setup-with-coffee-and-journal-30234377/
 - services: Yan Krukau — https://www.pexels.com/photo/a-person-holding-a-headset-8867202/
-- experience: ANTONI SHKRABA production — https://www.pexels.com/photo/two-men-having-a-meeting-in-the-office-8278906/ (two men only; replacement image)
+- experience: Kampus Production — https://www.pexels.com/photo/bearded-man-in-gray-coat-sitting-beside-a-man-working-8204391/ (two male call-center colleagues with headsets; no women visible)
 - markets: 8 K — https://www.pexels.com/photo/drone-shot-of-a-residential-area-11467685/
 - proof: Yan Krukau — https://www.pexels.com/photo/close-up-of-a-handshake-7693144/
 - systems: Tiger Lily — https://www.pexels.com/photo/a-purple-chart-on-a-computer-screen-7109291/

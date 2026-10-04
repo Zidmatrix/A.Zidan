@@ -37,22 +37,22 @@
   },
   {
     "section": "experience",
-    "pexelsId": 8278906,
-    "photographer": "ANTONI SHKRABA production",
-    "source": "https://www.pexels.com/photo/two-men-having-a-meeting-in-the-office-8278906/",
+    "pexelsId": 8204391,
+    "photographer": "Kampus Production",
+    "source": "https://www.pexels.com/photo/bearded-man-in-gray-coat-sitting-beside-a-man-working-8204391/",
     "license": "https://www.pexels.com/license/",
     "verified": "2026-10-04",
     "originalDownloadDimensions": [
       1280,
-      853
+      855
     ],
     "delivery": {
-      "320": 8922,
-      "640": 21298,
-      "960": 35444
+      "320": 5712,
+      "640": 13220,
+      "960": 23658
     },
     "quality": 75,
-    "assetName": "experience-men"
+    "assetName": "experience-callcenter"
   },
   {
     "section": "markets",
