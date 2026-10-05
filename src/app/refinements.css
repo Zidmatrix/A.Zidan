@@ -13,6 +13,12 @@ body:before{content:'';position:fixed;inset:0;z-index:55;pointer-events:none;opa
  html[data-cursor=on] body,html[data-cursor=on] a,html[data-cursor=on] button{cursor:none}
  .cursor-light:after{content:'';position:absolute;width:26px;height:26px;left:-10px;top:-10px;border:1px solid var(--accent);border-radius:50%;opacity:.55;transform:scale(1);transition:transform .2s,opacity .2s}
  .cursor-light[data-interactive=true]:after{transform:scale(1.45);opacity:.9}
+ /* Native modal dialogs sit above page-level cursor artwork in the top layer. */
+ html[data-cursor=on]:has(dialog[open]) body{cursor:auto}
+ html[data-cursor=on] dialog[open],html[data-cursor=on] dialog[open]::backdrop{cursor:auto}
+ html[data-cursor=on] dialog[open] a,html[data-cursor=on] dialog[open] button{cursor:pointer}
+ html[data-cursor=on] dialog[open] input{cursor:text}
+ html[data-cursor=on]:has(dialog[open]) .cursor-light{display:none}
 }
 @media(prefers-reduced-motion:no-preference){
  .reveal-heading[data-revealed=true] .reveal-word{animation:quiet-word .45s cubic-bezier(.2,.65,.25,1) both;animation-delay:var(--word-delay)}
