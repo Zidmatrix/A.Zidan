@@ -1,4 +1,5 @@
 import {asset} from '@/lib/content';
+import PhotoWindow from './PhotoWindow';
 export const sectionPhotos={
  about:{alt:'A green journal and coffee on a quiet work desk',caption:'FOCUS / PERSONAL WORK RHYTHM',credit:'HAN'},
  services:{alt:'Hands holding a professional headset before a conversation',caption:'COMMUNICATION / THE FIRST CONVERSATION',credit:'YAN KRUKAU'},
@@ -16,7 +17,7 @@ export default function SectionPhoto({section}:{section:PhotoSection}){
  const photoName=section==='experience'?'experience-callcenter':section;
  const width={about:280,services:260,experience:350,markets:280,proof:260,systems:320,introduction:280,cv:240,contact:340}[section];
  return <figure className={`section-photo photo-${section}`} data-photo-section={section}>
-  <div className="section-photo-window"><img src={asset(`photography/${photoName}-640.webp`)} srcSet={[320,640,960].map(w=>`${asset(`photography/${photoName}-${w}.webp`)} ${w}w`).join(', ')} sizes={`(max-width:600px) min(88vw, 320px), ${width}px`} width="640" height="320" loading="lazy" decoding="async" fetchPriority="low" alt={photo.alt}/></div>
+  <PhotoWindow className="section-photo-window"><img src={asset(`photography/${photoName}-640.webp`)} srcSet={[320,640,960].map(w=>`${asset(`photography/${photoName}-${w}.webp`)} ${w}w`).join(', ')} sizes={`(max-width:600px) min(88vw, 320px), ${width}px`} width="640" height="320" loading="lazy" decoding="async" fetchPriority="low" alt={photo.alt}/></PhotoWindow>
   <figcaption><span>{photo.caption}</span><small>{photo.credit} / PEXELS</small></figcaption>
  </figure>;
 }

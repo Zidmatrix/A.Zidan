@@ -36,3 +36,12 @@ The theme reveal uses the browser's same-document View Transitions API and the o
 World view draws a great-circle collaboration route from a representative [Cairo city point](https://www.geonames.org/360630/cairo.html) to the selected state's existing coordinates, using the map's original projection. The line draws once and the destination responds once. Routes communicate remote work, not physical travel. U.S. view, portrait map instructions and the thirteen selectable states remain available.
 
 The method's signal follows the measured node positions, wrapping outside row text on smaller screens. Each selection gets one short movement. A separate email copy button preserves the mailto link and reports actual clipboard success or failure. New controls have 44px targets; decorative motion honors reduced-motion preferences.
+
+## Editorial motion
+The two name lines reveal through short masks, followed by the existing hero description, credentials and actions. The original SIGNAL artwork and its renderer remain unchanged. A fine line in the page gutter connects the section labels; its light follows the native reading position rather than a separate timer.
+
+At desktop widths of at least 1050px and heights of at least 700px, the existing services become a short scroll story with a sticky detail panel. Passing each row updates the role. Clicking or using the keyboard takes precedence until the section leaves the viewport. Small screens and reduced motion retain the original manual tabs. No wheel, touch or scroll behavior is intercepted.
+
+Existing photographs reveal once through a sliding cover; their original image sources, dimensions, lazy loading and subtle parallax are preserved. Pointer depth is limited to 1.2 degrees per axis, with a restrained local light on detail panels. Touch and reduced motion omit depth. Native dialogs use brief entry/exit transitions and staggered menu links; focus handling and the native dialog cursor remain intact. The inline CV uses a directional page transition, while zoom retains the current sheet.
+
+All added effects use local CSS and small native observers, with no new dependencies or runtime media requests. Unsupported dialog-transition features fall back to normal native opening and closing. The new motion remains decorative, with content and native controls available in the underlying markup.

@@ -1,6 +1,7 @@
 'use client';
 import {useEffect,useRef,useState} from 'react';
 import {asset} from '@/lib/content';
+import PhotoWindow from './PhotoWindow';
 
 export function HeroCount({value,suffix='',label}:{value:number;suffix?:string;label:string}){
  const ref=useRef<HTMLSpanElement>(null);
@@ -21,7 +22,7 @@ export function HeroCount({value,suffix='',label}:{value:number;suffix?:string;l
 
 export default function HeroDetail(){
  return <figure className="hero-photo-detail">
-  <div className="hero-photo-window"><img src={asset('photography/hero-remote-640.webp')} srcSet={[320,640,960,1280].map(w=>`${asset(`photography/hero-remote-${w}.webp`)} ${w}w`).join(', ')} sizes="(max-width:600px) 88vw, 380px" width="640" height="427" loading="lazy" decoding="async" fetchPriority="low" alt="Hands moving between a laptop and phone during focused remote work"/></div>
+  <PhotoWindow className="hero-photo-window"><img src={asset('photography/hero-remote-640.webp')} srcSet={[320,640,960,1280].map(w=>`${asset(`photography/hero-remote-${w}.webp`)} ${w}w`).join(', ')} sizes="(max-width:600px) 88vw, 380px" width="640" height="427" loading="lazy" decoding="async" fetchPriority="low" alt="Hands moving between a laptop and phone during focused remote work"/></PhotoWindow>
   <figcaption>PHOTOGRAPHY / RDNE STOCK PROJECT · PEXELS</figcaption>
  </figure>;
 }
