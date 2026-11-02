@@ -2,14 +2,14 @@
 import {useEffect, useRef, useState} from 'react';
 import {stages} from '@/lib/content';
 
-type Point = {x: number; y: number};
+type Point = {x: number; y: number; row: number};
 function connect(points: Point[]) {
  if (!points.length) return '';
  let path = `M${points[0].x} ${points[0].y}`;
  for (let i = 1; i < points.length; i++) {
   const previous = points[i - 1], next = points[i];
   // Wrap around the outside of each row instead of crossing its text.
-  if (Math.abs(next.y - previous.y) > 2) path += ` L-8 ${previous.y} L-8 ${next.y}`;
+  if (Math.abs(next.row - previous.row) > 2) path += ` L-8 ${previous.y} L-8 ${next.y}`;
   path += ` L${next.x} ${next.y}`;
  }
  return path;
@@ -26,7 +26,8 @@ export default function MethodJourney() {
    const box = element.getBoundingClientRect();
    const points = [...element.querySelectorAll('.path-node')].map(node => {
     const r = node.getBoundingClientRect();
-    return {x: +(r.x - box.x + r.width / 2).toFixed(2), y: +(r.y - box.y + r.height / 2).toFixed(2)};
+    const row = node.parentElement!.getBoundingClientRect().y - box.y;
+    return {x: +(r.x - box.x + r.width / 2).toFixed(2), y: +(r.y - box.y + r.height / 2).toFixed(2), row};
    });
    setGeometry({width: box.width, height: box.height, points});
   };
