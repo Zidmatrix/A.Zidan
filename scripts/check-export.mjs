@@ -70,8 +70,20 @@ for(let i=0;i<cues.length;i++){
  assert.equal(Math.round(seconds(cues[i][1])*1000),Math.round(cue.start*1000));assert.equal(Math.round(seconds(cues[i][2])*1000),Math.round(cue.end*1000));assert.equal(cues[i][3],cue.text);
  assert(cue.end-cue.start>=1.1 && cue.text.length<=85,'Subtitle must remain readable');
  if(i)assert(cue.start>=intro.captions[i-1].end,'Caption overlap');
+ assert(cue.words.length>0,'Recognized word timing missing');
+ assert.equal(cue.words.map(word=>word.text).join(' '),cue.text,'Word highlighting must preserve the reviewed phrase');
+ for(let j=0;j<cue.words.length;j++){
+  const word=cue.words[j];
+  assert(word.start>=cue.start&&word.end>word.start&&word.end<=cue.end+.001,'Invalid recognized word bounds');
+  if(j)assert(word.start>=cue.words[j-1].end,'Recognized word overlap');
+ }
 }
+assert(intro.envelopeHz>0&&intro.envelopeHz<=30,'Invalid microphone envelope sample rate');
+assert.equal(intro.envelope.length,Math.ceil(intro.duration*intro.envelopeHz),'Microphone envelope must cover the unchanged recording');
+assert(intro.envelope.every(level=>Number.isFinite(level)&&level>=0&&level<=1),'Invalid microphone RMS envelope');
+assert(Math.max(...intro.envelope)>.9&&intro.envelope.some(level=>level<.03),'Recording envelope must retain speech and quiet intervals');
 assert.equal(intro.waveform.length,100);assert(intro.waveform.every(p=>p>0&&p<=1),'Invalid precomputed waveform');
 assert.equal((html.match(/<audio /g)||[]).length,1,'All introduction CTAs must share one audio');
 for(const old of ['intro.mp4','intro-poster.jpg'])await assert.rejects(access(`out/${old}`),'Old video assets must not ship');
 console.log('PASS: source audio SHA-256, matching JSON/WebVTT, readable nonoverlapping cues, single media instance and no shipped video.');
+console.log('PASS: reviewed phrase text, positive recognized word timing and precomputed recording-level envelope.');

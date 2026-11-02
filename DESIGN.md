@@ -25,3 +25,14 @@ The current build is a first implementation of the selected direction, not a cla
 
 ## Audio design references
 Reviewed [Midlife Engineering](https://www.awwwards.com/sites/midlife-engineering) for restrained sound controls and [Daydream Player](https://www.awwwards.com/sites/daydream-player) for a deliberate, tactile player hierarchy. The chosen adaptation keeps SIGNAL’s existing typefaces, colors and page structure: a narrow editorial panel, fine corner marks, a custom line microphone, a prominent circular play control, the recording’s precomputed waveform and a dedicated caption well. Mobile stacks the two panels and retains 44px controls. The subtitle area reserves space for every cue, and the complete transcript uses readable paragraphs.
+
+## SIGNAL interaction details
+One native audio element also supplies a compact floating controller after the main frame leaves view. Pause/resume retains that instance and its position; return restores focus to the main control. Dismissal, completion and open navigation/command dialogs suppress the mini player.
+
+Reviewed phrase wording and WebVTT timings remain unchanged. Word highlighting uses recognition timestamps, including corrected product spelling. Terms recognized as one word remain one timed unit; two zero-duration recognition words are grouped with their adjacent spoken term instead of assigning invented times. A 12 Hz RMS envelope is precomputed from the original recording for the microphone light. Native currentTime drives both effects at up to 30 UI updates/second; no Web Audio context, microphone permission, additional media download or runtime service is needed.
+
+The theme reveal uses the browser's same-document View Transitions API and the original toggle as its origin. Reduced motion and unsupported browsers switch directly. Cross-tab preference synchronization and scroll position are preserved. See the [Chrome circular reveal reference](https://view-transitions.chrome.dev/).
+
+World view draws a great-circle collaboration route from a representative [Cairo city point](https://www.geonames.org/360630/cairo.html) to the selected state's existing coordinates, using the map's original projection. The line draws once and the destination responds once. Routes communicate remote work, not physical travel. U.S. view, portrait map instructions and the thirteen selectable states remain available.
+
+The method's signal follows the measured node positions, wrapping outside row text on smaller screens. Each selection gets one short movement. A separate email copy button preserves the mailto link and reports actual clipboard success or failure. New controls have 44px targets; decorative motion honors reduced-motion preferences.
