@@ -1,0 +1,4262 @@
+{
+  "duration": 234.8408125,
+  "sha256": "6228fad4092c9b5bcca755a5dbda87e53279d89e9c1ffdd13629a21315d88778",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.9,
+      "text": " Hi, I'm Zidane, based in Cairo, Egypt, and I specialize in lead generation,",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.34,
+          "word": " Hi,",
+          "probability": 0.8606660962104797
+        },
+        {
+          "start": 0.68,
+          "end": 0.96,
+          "word": " I'm",
+          "probability": 0.9632260501384735
+        },
+        {
+          "start": 0.96,
+          "end": 1.36,
+          "word": " Zidane,",
+          "probability": 0.7886906663576762
+        },
+        {
+          "start": 1.64,
+          "end": 1.88,
+          "word": " based",
+          "probability": 0.9915574789047241
+        },
+        {
+          "start": 1.88,
+          "end": 2.14,
+          "word": " in",
+          "probability": 0.9982214570045471
+        },
+        {
+          "start": 2.14,
+          "end": 2.42,
+          "word": " Cairo,",
+          "probability": 0.9985961318016052
+        },
+        {
+          "start": 2.56,
+          "end": 2.8,
+          "word": " Egypt,",
+          "probability": 0.9889428615570068
+        },
+        {
+          "start": 3.26,
+          "end": 3.28,
+          "word": " and",
+          "probability": 0.993610680103302
+        },
+        {
+          "start": 3.28,
+          "end": 3.44,
+          "word": " I",
+          "probability": 0.9872984290122986
+        },
+        {
+          "start": 3.44,
+          "end": 3.76,
+          "word": " specialize",
+          "probability": 0.9940253496170044
+        },
+        {
+          "start": 3.76,
+          "end": 4.16,
+          "word": " in",
+          "probability": 0.9983505010604858
+        },
+        {
+          "start": 4.16,
+          "end": 4.34,
+          "word": " lead",
+          "probability": 0.8833715319633484
+        },
+        {
+          "start": 4.34,
+          "end": 4.9,
+          "word": " generation,",
+          "probability": 0.980925977230072
+        }
+      ]
+    },
+    {
+      "start": 5.46,
+      "end": 8.06,
+      "text": " cold calling, lead management, and appointment setting.",
+      "words": [
+        {
+          "start": 5.46,
+          "end": 5.58,
+          "word": " cold",
+          "probability": 0.9903507828712463
+        },
+        {
+          "start": 5.58,
+          "end": 5.96,
+          "word": " calling,",
+          "probability": 0.9517149925231934
+        },
+        {
+          "start": 6.4,
+          "end": 6.5,
+          "word": " lead",
+          "probability": 0.9947298765182495
+        },
+        {
+          "start": 6.5,
+          "end": 7.0,
+          "word": " management,",
+          "probability": 0.9989118576049805
+        },
+        {
+          "start": 7.32,
+          "end": 7.38,
+          "word": " and",
+          "probability": 0.9967058300971985
+        },
+        {
+          "start": 7.38,
+          "end": 7.66,
+          "word": " appointment",
+          "probability": 0.9901461005210876
+        },
+        {
+          "start": 7.66,
+          "end": 8.06,
+          "word": " setting.",
+          "probability": 0.9566248655319214
+        }
+      ]
+    },
+    {
+      "start": 8.7,
+      "end": 12.74,
+      "text": " I have over three years of experience working in US real estate cold calling",
+      "words": [
+        {
+          "start": 8.7,
+          "end": 8.9,
+          "word": " I",
+          "probability": 0.9966907501220703
+        },
+        {
+          "start": 8.9,
+          "end": 9.08,
+          "word": " have",
+          "probability": 0.9985452890396118
+        },
+        {
+          "start": 9.08,
+          "end": 9.32,
+          "word": " over",
+          "probability": 0.998172402381897
+        },
+        {
+          "start": 9.32,
+          "end": 9.64,
+          "word": " three",
+          "probability": 0.75663161277771
+        },
+        {
+          "start": 9.64,
+          "end": 9.92,
+          "word": " years",
+          "probability": 0.9983896017074585
+        },
+        {
+          "start": 9.92,
+          "end": 10.08,
+          "word": " of",
+          "probability": 0.9974656105041504
+        },
+        {
+          "start": 10.08,
+          "end": 10.58,
+          "word": " experience",
+          "probability": 0.9991490840911865
+        },
+        {
+          "start": 10.58,
+          "end": 10.96,
+          "word": " working",
+          "probability": 0.9936969876289368
+        },
+        {
+          "start": 10.96,
+          "end": 11.22,
+          "word": " in",
+          "probability": 0.9983583092689514
+        },
+        {
+          "start": 11.22,
+          "end": 11.52,
+          "word": " US",
+          "probability": 0.5418756008148193
+        },
+        {
+          "start": 11.52,
+          "end": 11.78,
+          "word": " real",
+          "probability": 0.9776867628097534
+        },
+        {
+          "start": 11.78,
+          "end": 12.08,
+          "word": " estate",
+          "probability": 0.9768857955932617
+        },
+        {
+          "start": 12.08,
+          "end": 12.42,
+          "word": " cold",
+          "probability": 0.5869107246398926
+        },
+        {
+          "start": 12.42,
+          "end": 12.74,
+          "word": " calling",
+          "probability": 0.9844755530357361
+        }
+      ]
+    },
+    {
+      "start": 12.74,
+      "end": 16.06,
+      "text": " and lead generation, along with around one year of direct",
+      "words": [
+        {
+          "start": 12.74,
+          "end": 13.0,
+          "word": " and",
+          "probability": 0.9484068155288696
+        },
+        {
+          "start": 13.0,
+          "end": 13.2,
+          "word": " lead",
+          "probability": 0.9979614019393921
+        },
+        {
+          "start": 13.2,
+          "end": 13.76,
+          "word": " generation,",
+          "probability": 0.9982224106788635
+        },
+        {
+          "start": 14.14,
+          "end": 14.46,
+          "word": " along",
+          "probability": 0.995006799697876
+        },
+        {
+          "start": 14.46,
+          "end": 14.66,
+          "word": " with",
+          "probability": 0.9996104836463928
+        },
+        {
+          "start": 14.66,
+          "end": 14.92,
+          "word": " around",
+          "probability": 0.9927247166633606
+        },
+        {
+          "start": 14.92,
+          "end": 15.26,
+          "word": " one",
+          "probability": 0.9497596621513367
+        },
+        {
+          "start": 15.26,
+          "end": 15.5,
+          "word": " year",
+          "probability": 0.9979509711265564
+        },
+        {
+          "start": 15.5,
+          "end": 15.72,
+          "word": " of",
+          "probability": 0.998817503452301
+        },
+        {
+          "start": 15.72,
+          "end": 16.06,
+          "word": " direct",
+          "probability": 0.9593743085861206
+        }
+      ]
+    },
+    {
+      "start": 16.06,
+      "end": 19.62,
+      "text": " lead manager experience working with US clients and investors.",
+      "words": [
+        {
+          "start": 16.06,
+          "end": 16.34,
+          "word": " lead",
+          "probability": 0.9941046833992004
+        },
+        {
+          "start": 16.34,
+          "end": 16.74,
+          "word": " manager",
+          "probability": 0.9897945523262024
+        },
+        {
+          "start": 16.74,
+          "end": 17.4,
+          "word": " experience",
+          "probability": 0.9987170696258545
+        },
+        {
+          "start": 17.4,
+          "end": 17.9,
+          "word": " working",
+          "probability": 0.6772540211677551
+        },
+        {
+          "start": 17.9,
+          "end": 18.18,
+          "word": " with",
+          "probability": 0.9990604519844055
+        },
+        {
+          "start": 18.18,
+          "end": 18.46,
+          "word": " US",
+          "probability": 0.9619711637496948
+        },
+        {
+          "start": 18.46,
+          "end": 18.9,
+          "word": " clients",
+          "probability": 0.9973050355911255
+        },
+        {
+          "start": 18.9,
+          "end": 19.12,
+          "word": " and",
+          "probability": 0.9941734671592712
+        },
+        {
+          "start": 19.12,
+          "end": 19.62,
+          "word": " investors.",
+          "probability": 0.9989014863967896
+        }
+      ]
+    },
+    {
+      "start": 20.28,
+      "end": 23.66,
+      "text": " I've also worked in the solar market, which has helped me adapt to different",
+      "words": [
+        {
+          "start": 20.28,
+          "end": 20.54,
+          "word": " I've",
+          "probability": 0.9962843060493469
+        },
+        {
+          "start": 20.54,
+          "end": 20.76,
+          "word": " also",
+          "probability": 0.999411940574646
+        },
+        {
+          "start": 20.76,
+          "end": 21.02,
+          "word": " worked",
+          "probability": 0.9987485408782959
+        },
+        {
+          "start": 21.02,
+          "end": 21.18,
+          "word": " in",
+          "probability": 0.9963082075119019
+        },
+        {
+          "start": 21.18,
+          "end": 21.32,
+          "word": " the",
+          "probability": 0.997374415397644
+        },
+        {
+          "start": 21.32,
+          "end": 21.54,
+          "word": " solar",
+          "probability": 0.8536068797111511
+        },
+        {
+          "start": 21.54,
+          "end": 22.0,
+          "word": " market,",
+          "probability": 0.9994805455207825
+        },
+        {
+          "start": 22.2,
+          "end": 22.4,
+          "word": " which",
+          "probability": 0.9992403984069824
+        },
+        {
+          "start": 22.4,
+          "end": 22.54,
+          "word": " has",
+          "probability": 0.997346043586731
+        },
+        {
+          "start": 22.54,
+          "end": 22.7,
+          "word": " helped",
+          "probability": 0.9989060163497925
+        },
+        {
+          "start": 22.7,
+          "end": 22.88,
+          "word": " me",
+          "probability": 0.9996460676193237
+        },
+        {
+          "start": 22.88,
+          "end": 23.16,
+          "word": " adapt",
+          "probability": 0.9930330514907837
+        },
+        {
+          "start": 23.16,
+          "end": 23.36,
+          "word": " to",
+          "probability": 0.9987679123878479
+        },
+        {
+          "start": 23.36,
+          "end": 23.66,
+          "word": " different",
+          "probability": 0.9993259906768799
+        }
+      ]
+    },
+    {
+      "start": 23.66,
+      "end": 26.44,
+      "text": " audiences, sales approaches, and business goals.",
+      "words": [
+        {
+          "start": 23.66,
+          "end": 24.18,
+          "word": " audiences,",
+          "probability": 0.9964325428009033
+        },
+        {
+          "start": 24.68,
+          "end": 24.86,
+          "word": " sales",
+          "probability": 0.9992800354957581
+        },
+        {
+          "start": 24.86,
+          "end": 25.28,
+          "word": " approaches,",
+          "probability": 0.9961846470832825
+        },
+        {
+          "start": 25.62,
+          "end": 25.8,
+          "word": " and",
+          "probability": 0.9991206526756287
+        },
+        {
+          "start": 25.8,
+          "end": 26.1,
+          "word": " business",
+          "probability": 0.9995695948600769
+        },
+        {
+          "start": 26.1,
+          "end": 26.44,
+          "word": " goals.",
+          "probability": 0.9977239966392517
+        }
+      ]
+    },
+    {
+      "start": 26.44,
+      "end": 30.72,
+      "text": " But what I bring to a business goes beyond making calls or following a script.",
+      "words": [
+        {
+          "start": 26.44,
+          "end": 27.22,
+          "word": " But",
+          "probability": 0.48605063557624817
+        },
+        {
+          "start": 27.22,
+          "end": 27.36,
+          "word": " what",
+          "probability": 0.9404058456420898
+        },
+        {
+          "start": 27.36,
+          "end": 27.5,
+          "word": " I",
+          "probability": 0.9940768480300903
+        },
+        {
+          "start": 27.5,
+          "end": 27.68,
+          "word": " bring",
+          "probability": 0.9972150325775146
+        },
+        {
+          "start": 27.68,
+          "end": 27.86,
+          "word": " to",
+          "probability": 0.9972670078277588
+        },
+        {
+          "start": 27.86,
+          "end": 28.0,
+          "word": " a",
+          "probability": 0.9790727496147156
+        },
+        {
+          "start": 28.0,
+          "end": 28.28,
+          "word": " business",
+          "probability": 0.9977972507476807
+        },
+        {
+          "start": 28.28,
+          "end": 28.54,
+          "word": " goes",
+          "probability": 0.9857185482978821
+        },
+        {
+          "start": 28.54,
+          "end": 29.02,
+          "word": " beyond",
+          "probability": 0.9956509470939636
+        },
+        {
+          "start": 29.02,
+          "end": 29.32,
+          "word": " making",
+          "probability": 0.9917851686477661
+        },
+        {
+          "start": 29.32,
+          "end": 29.74,
+          "word": " calls",
+          "probability": 0.9986068606376648
+        },
+        {
+          "start": 29.74,
+          "end": 29.94,
+          "word": " or",
+          "probability": 0.9710357785224915
+        },
+        {
+          "start": 29.94,
+          "end": 30.28,
+          "word": " following",
+          "probability": 0.997576892375946
+        },
+        {
+          "start": 30.28,
+          "end": 30.44,
+          "word": " a",
+          "probability": 0.939145028591156
+        },
+        {
+          "start": 30.44,
+          "end": 30.72,
+          "word": " script.",
+          "probability": 0.999123752117157
+        }
+      ]
+    },
+    {
+      "start": 31.42,
+      "end": 34.98,
+      "text": " My focus is on turning conversations into qualified opportunities,",
+      "words": [
+        {
+          "start": 31.42,
+          "end": 31.54,
+          "word": " My",
+          "probability": 0.9924208521842957
+        },
+        {
+          "start": 31.54,
+          "end": 31.86,
+          "word": " focus",
+          "probability": 0.9996272325515747
+        },
+        {
+          "start": 31.86,
+          "end": 32.2,
+          "word": " is",
+          "probability": 0.9975178241729736
+        },
+        {
+          "start": 32.2,
+          "end": 32.36,
+          "word": " on",
+          "probability": 0.9949533343315125
+        },
+        {
+          "start": 32.36,
+          "end": 32.66,
+          "word": " turning",
+          "probability": 0.9970652461051941
+        },
+        {
+          "start": 32.66,
+          "end": 33.22,
+          "word": " conversations",
+          "probability": 0.9904763698577881
+        },
+        {
+          "start": 33.22,
+          "end": 33.7,
+          "word": " into",
+          "probability": 0.9963445067405701
+        },
+        {
+          "start": 33.7,
+          "end": 34.28,
+          "word": " qualified",
+          "probability": 0.9916456341743469
+        },
+        {
+          "start": 34.28,
+          "end": 34.98,
+          "word": " opportunities,",
+          "probability": 0.9966943264007568
+        }
+      ]
+    },
+    {
+      "start": 35.5,
+      "end": 40.1,
+      "text": " building trust with prospects and helping businesses make better use of the leads they generate.",
+      "words": [
+        {
+          "start": 35.5,
+          "end": 35.8,
+          "word": " building",
+          "probability": 0.9911425113677979
+        },
+        {
+          "start": 35.8,
+          "end": 36.12,
+          "word": " trust",
+          "probability": 0.9989542961120605
+        },
+        {
+          "start": 36.12,
+          "end": 36.36,
+          "word": " with",
+          "probability": 0.9994295239448547
+        },
+        {
+          "start": 36.36,
+          "end": 36.84,
+          "word": " prospects",
+          "probability": 0.9959254264831543
+        },
+        {
+          "start": 36.84,
+          "end": 37.34,
+          "word": " and",
+          "probability": 0.5843955874443054
+        },
+        {
+          "start": 37.34,
+          "end": 37.64,
+          "word": " helping",
+          "probability": 0.9983330368995667
+        },
+        {
+          "start": 37.64,
+          "end": 38.04,
+          "word": " businesses",
+          "probability": 0.9939752221107483
+        },
+        {
+          "start": 38.04,
+          "end": 38.38,
+          "word": " make",
+          "probability": 0.9957693815231323
+        },
+        {
+          "start": 38.38,
+          "end": 38.7,
+          "word": " better",
+          "probability": 0.9983766078948975
+        },
+        {
+          "start": 38.7,
+          "end": 38.98,
+          "word": " use",
+          "probability": 0.9992204904556274
+        },
+        {
+          "start": 38.98,
+          "end": 39.16,
+          "word": " of",
+          "probability": 0.9986592531204224
+        },
+        {
+          "start": 39.16,
+          "end": 39.3,
+          "word": " the",
+          "probability": 0.9972372055053711
+        },
+        {
+          "start": 39.3,
+          "end": 39.48,
+          "word": " leads",
+          "probability": 0.9994208812713623
+        },
+        {
+          "start": 39.48,
+          "end": 39.72,
+          "word": " they",
+          "probability": 0.9948705434799194
+        },
+        {
+          "start": 39.72,
+          "end": 40.1,
+          "word": " generate.",
+          "probability": 0.9984816908836365
+        }
+      ]
+    },
+    {
+      "start": 40.9,
+      "end": 44.72,
+      "text": " When it comes to cold calling, I understand that every conversation is different.",
+      "words": [
+        {
+          "start": 40.9,
+          "end": 40.98,
+          "word": " When",
+          "probability": 0.9932839870452881
+        },
+        {
+          "start": 40.98,
+          "end": 41.08,
+          "word": " it",
+          "probability": 0.998961329460144
+        },
+        {
+          "start": 41.08,
+          "end": 41.24,
+          "word": " comes",
+          "probability": 0.9987174272537231
+        },
+        {
+          "start": 41.24,
+          "end": 41.46,
+          "word": " to",
+          "probability": 0.998660683631897
+        },
+        {
+          "start": 41.46,
+          "end": 41.68,
+          "word": " cold",
+          "probability": 0.994806706905365
+        },
+        {
+          "start": 41.68,
+          "end": 41.92,
+          "word": " calling,",
+          "probability": 0.970000147819519
+        },
+        {
+          "start": 42.3,
+          "end": 42.5,
+          "word": " I",
+          "probability": 0.9982678890228271
+        },
+        {
+          "start": 42.5,
+          "end": 42.9,
+          "word": " understand",
+          "probability": 0.9995054006576538
+        },
+        {
+          "start": 42.9,
+          "end": 43.16,
+          "word": " that",
+          "probability": 0.995800793170929
+        },
+        {
+          "start": 43.16,
+          "end": 43.52,
+          "word": " every",
+          "probability": 0.9968305230140686
+        },
+        {
+          "start": 43.52,
+          "end": 43.92,
+          "word": " conversation",
+          "probability": 0.998358428478241
+        },
+        {
+          "start": 43.92,
+          "end": 44.36,
+          "word": " is",
+          "probability": 0.9993244409561157
+        },
+        {
+          "start": 44.36,
+          "end": 44.72,
+          "word": " different.",
+          "probability": 0.9997162222862244
+        }
+      ]
+    },
+    {
+      "start": 45.28,
+      "end": 49.4,
+      "text": " I know how to build rapport, communicate naturally, ask the right questions,",
+      "words": [
+        {
+          "start": 45.28,
+          "end": 45.44,
+          "word": " I",
+          "probability": 0.9980494976043701
+        },
+        {
+          "start": 45.44,
+          "end": 45.58,
+          "word": " know",
+          "probability": 0.9991605281829834
+        },
+        {
+          "start": 45.58,
+          "end": 45.74,
+          "word": " how",
+          "probability": 0.9992521405220032
+        },
+        {
+          "start": 45.74,
+          "end": 45.84,
+          "word": " to",
+          "probability": 0.9994304776191711
+        },
+        {
+          "start": 45.84,
+          "end": 46.04,
+          "word": " build",
+          "probability": 0.9991973042488098
+        },
+        {
+          "start": 46.04,
+          "end": 46.5,
+          "word": " rapport,",
+          "probability": 0.9984391331672668
+        },
+        {
+          "start": 46.92,
+          "end": 47.32,
+          "word": " communicate",
+          "probability": 0.9980599284172058
+        },
+        {
+          "start": 47.32,
+          "end": 47.9,
+          "word": " naturally,",
+          "probability": 0.9966921806335449
+        },
+        {
+          "start": 48.3,
+          "end": 48.56,
+          "word": " ask",
+          "probability": 0.9963352680206299
+        },
+        {
+          "start": 48.56,
+          "end": 48.74,
+          "word": " the",
+          "probability": 0.9991173148155212
+        },
+        {
+          "start": 48.74,
+          "end": 48.92,
+          "word": " right",
+          "probability": 0.999180257320404
+        },
+        {
+          "start": 48.92,
+          "end": 49.4,
+          "word": " questions,",
+          "probability": 0.9981682300567627
+        }
+      ]
+    },
+    {
+      "start": 49.84,
+      "end": 53.08,
+      "text": " handle objections professionally, and keep conversations moving",
+      "words": [
+        {
+          "start": 49.84,
+          "end": 50.04,
+          "word": " handle",
+          "probability": 0.9989277720451355
+        },
+        {
+          "start": 50.04,
+          "end": 50.56,
+          "word": " objections",
+          "probability": 0.9917009472846985
+        },
+        {
+          "start": 50.56,
+          "end": 51.22,
+          "word": " professionally,",
+          "probability": 0.9975650310516357
+        },
+        {
+          "start": 51.52,
+          "end": 51.8,
+          "word": " and",
+          "probability": 0.9983745813369751
+        },
+        {
+          "start": 51.8,
+          "end": 52.0,
+          "word": " keep",
+          "probability": 0.9976353645324707
+        },
+        {
+          "start": 52.0,
+          "end": 52.62,
+          "word": " conversations",
+          "probability": 0.9967215657234192
+        },
+        {
+          "start": 52.62,
+          "end": 53.08,
+          "word": " moving",
+          "probability": 0.9990105628967285
+        }
+      ]
+    },
+    {
+      "start": 53.08,
+      "end": 55.02,
+      "text": " without making prospects feel pressured.",
+      "words": [
+        {
+          "start": 53.08,
+          "end": 53.52,
+          "word": " without",
+          "probability": 0.9926059246063232
+        },
+        {
+          "start": 53.52,
+          "end": 53.86,
+          "word": " making",
+          "probability": 0.9987282156944275
+        },
+        {
+          "start": 53.86,
+          "end": 54.34,
+          "word": " prospects",
+          "probability": 0.9971036314964294
+        },
+        {
+          "start": 54.34,
+          "end": 54.62,
+          "word": " feel",
+          "probability": 0.9977390766143799
+        },
+        {
+          "start": 54.62,
+          "end": 55.02,
+          "word": " pressured.",
+          "probability": 0.9988797307014465
+        }
+      ]
+    },
+    {
+      "start": 55.660000000000004,
+      "end": 58.74,
+      "text": " I focus on understanding the person on the other end of the call,",
+      "words": [
+        {
+          "start": 55.58,
+          "end": 55.9,
+          "word": " I",
+          "probability": 0.43659549951553345
+        },
+        {
+          "start": 55.9,
+          "end": 56.14,
+          "word": " focus",
+          "probability": 0.9493321180343628
+        },
+        {
+          "start": 56.14,
+          "end": 56.42,
+          "word": " on",
+          "probability": 0.9970483183860779
+        },
+        {
+          "start": 56.42,
+          "end": 56.96,
+          "word": " understanding",
+          "probability": 0.9952406883239746
+        },
+        {
+          "start": 56.96,
+          "end": 57.22,
+          "word": " the",
+          "probability": 0.9972438812255859
+        },
+        {
+          "start": 57.22,
+          "end": 57.46,
+          "word": " person",
+          "probability": 0.9973726272583008
+        },
+        {
+          "start": 57.46,
+          "end": 57.68,
+          "word": " on",
+          "probability": 0.9954531192779541
+        },
+        {
+          "start": 57.68,
+          "end": 57.8,
+          "word": " the",
+          "probability": 0.9982062578201294
+        },
+        {
+          "start": 57.8,
+          "end": 58.02,
+          "word": " other",
+          "probability": 0.9948273301124573
+        },
+        {
+          "start": 58.02,
+          "end": 58.22,
+          "word": " end",
+          "probability": 0.9985999464988708
+        },
+        {
+          "start": 58.22,
+          "end": 58.32,
+          "word": " of",
+          "probability": 0.9979938268661499
+        },
+        {
+          "start": 58.32,
+          "end": 58.44,
+          "word": " the",
+          "probability": 0.9943196773529053
+        },
+        {
+          "start": 58.44,
+          "end": 58.74,
+          "word": " call,",
+          "probability": 0.9986013770103455
+        }
+      ]
+    },
+    {
+      "start": 59.22,
+      "end": 63.82,
+      "text": " identifying their needs, and recognizing when there's a genuine opportunity worth pursuing.",
+      "words": [
+        {
+          "start": 59.22,
+          "end": 59.64,
+          "word": " identifying",
+          "probability": 0.9849135279655457
+        },
+        {
+          "start": 59.64,
+          "end": 59.92,
+          "word": " their",
+          "probability": 0.9973969459533691
+        },
+        {
+          "start": 59.92,
+          "end": 60.24,
+          "word": " needs,",
+          "probability": 0.9957529306411743
+        },
+        {
+          "start": 60.64,
+          "end": 60.78,
+          "word": " and",
+          "probability": 0.997408926486969
+        },
+        {
+          "start": 60.78,
+          "end": 61.28,
+          "word": " recognizing",
+          "probability": 0.9750548005104065
+        },
+        {
+          "start": 61.28,
+          "end": 61.64,
+          "word": " when",
+          "probability": 0.9914110898971558
+        },
+        {
+          "start": 61.64,
+          "end": 61.84,
+          "word": " there's",
+          "probability": 0.9212145507335663
+        },
+        {
+          "start": 61.84,
+          "end": 62.0,
+          "word": " a",
+          "probability": 0.9954481720924377
+        },
+        {
+          "start": 62.0,
+          "end": 62.32,
+          "word": " genuine",
+          "probability": 0.9988964796066284
+        },
+        {
+          "start": 62.32,
+          "end": 62.86,
+          "word": " opportunity",
+          "probability": 0.9993491768836975
+        },
+        {
+          "start": 62.86,
+          "end": 63.3,
+          "word": " worth",
+          "probability": 0.9963310360908508
+        },
+        {
+          "start": 63.3,
+          "end": 63.82,
+          "word": " pursuing.",
+          "probability": 0.9978107810020447
+        }
+      ]
+    },
+    {
+      "start": 64.64,
+      "end": 69.4,
+      "text": " In real estate, I understand how important it is to uncover a seller's real motivation.",
+      "words": [
+        {
+          "start": 64.64,
+          "end": 64.76,
+          "word": " In",
+          "probability": 0.9850378632545471
+        },
+        {
+          "start": 64.76,
+          "end": 64.94,
+          "word": " real",
+          "probability": 0.9757417440414429
+        },
+        {
+          "start": 64.94,
+          "end": 65.26,
+          "word": " estate,",
+          "probability": 0.9946237802505493
+        },
+        {
+          "start": 65.58,
+          "end": 65.8,
+          "word": " I",
+          "probability": 0.997689962387085
+        },
+        {
+          "start": 65.8,
+          "end": 66.18,
+          "word": " understand",
+          "probability": 0.9985315799713135
+        },
+        {
+          "start": 66.18,
+          "end": 66.54,
+          "word": " how",
+          "probability": 0.9981531500816345
+        },
+        {
+          "start": 66.54,
+          "end": 66.92,
+          "word": " important",
+          "probability": 0.9989044666290283
+        },
+        {
+          "start": 66.92,
+          "end": 67.14,
+          "word": " it",
+          "probability": 0.9966863989830017
+        },
+        {
+          "start": 67.14,
+          "end": 67.32,
+          "word": " is",
+          "probability": 0.9994219541549683
+        },
+        {
+          "start": 67.32,
+          "end": 67.48,
+          "word": " to",
+          "probability": 0.9984862208366394
+        },
+        {
+          "start": 67.48,
+          "end": 67.86,
+          "word": " uncover",
+          "probability": 0.9989595413208008
+        },
+        {
+          "start": 67.86,
+          "end": 68.1,
+          "word": " a",
+          "probability": 0.9982847571372986
+        },
+        {
+          "start": 68.1,
+          "end": 68.54,
+          "word": " seller's",
+          "probability": 0.9857216775417328
+        },
+        {
+          "start": 68.54,
+          "end": 68.76,
+          "word": " real",
+          "probability": 0.9657464623451233
+        },
+        {
+          "start": 68.76,
+          "end": 69.4,
+          "word": " motivation.",
+          "probability": 0.9991921782493591
+        }
+      ]
+    },
+    {
+      "start": 70.04,
+      "end": 73.26,
+      "text": " I can qualify homeowners by asking about their reason for selling,",
+      "words": [
+        {
+          "start": 70.04,
+          "end": 70.22,
+          "word": " I",
+          "probability": 0.9973980188369751
+        },
+        {
+          "start": 70.22,
+          "end": 70.38,
+          "word": " can",
+          "probability": 0.9995272159576416
+        },
+        {
+          "start": 70.38,
+          "end": 70.8,
+          "word": " qualify",
+          "probability": 0.993556797504425
+        },
+        {
+          "start": 70.8,
+          "end": 71.24,
+          "word": " homeowners",
+          "probability": 0.9605960845947266
+        },
+        {
+          "start": 71.24,
+          "end": 71.6,
+          "word": " by",
+          "probability": 0.9970988035202026
+        },
+        {
+          "start": 71.6,
+          "end": 71.94,
+          "word": " asking",
+          "probability": 0.9997456669807434
+        },
+        {
+          "start": 71.94,
+          "end": 72.22,
+          "word": " about",
+          "probability": 0.9959039092063904
+        },
+        {
+          "start": 72.22,
+          "end": 72.4,
+          "word": " their",
+          "probability": 0.9960185885429382
+        },
+        {
+          "start": 72.4,
+          "end": 72.62,
+          "word": " reason",
+          "probability": 0.9902509450912476
+        },
+        {
+          "start": 72.62,
+          "end": 72.92,
+          "word": " for",
+          "probability": 0.9989126920700073
+        },
+        {
+          "start": 72.92,
+          "end": 73.26,
+          "word": " selling,",
+          "probability": 0.998752236366272
+        }
+      ]
+    },
+    {
+      "start": 73.72,
+      "end": 77.44,
+      "text": " property condition, occupancy, timeline, and price expectations.",
+      "words": [
+        {
+          "start": 73.72,
+          "end": 73.96,
+          "word": " property",
+          "probability": 0.9968795776367188
+        },
+        {
+          "start": 73.96,
+          "end": 74.5,
+          "word": " condition,",
+          "probability": 0.9884141683578491
+        },
+        {
+          "start": 74.9,
+          "end": 75.36,
+          "word": " occupancy,",
+          "probability": 0.9968239068984985
+        },
+        {
+          "start": 75.84,
+          "end": 76.1,
+          "word": " timeline,",
+          "probability": 0.9801110625267029
+        },
+        {
+          "start": 76.46,
+          "end": 76.58,
+          "word": " and",
+          "probability": 0.9989098310470581
+        },
+        {
+          "start": 76.58,
+          "end": 76.82,
+          "word": " price",
+          "probability": 0.9993250370025635
+        },
+        {
+          "start": 76.82,
+          "end": 77.44,
+          "word": " expectations.",
+          "probability": 0.9968327879905701
+        }
+      ]
+    },
+    {
+      "start": 78.12,
+      "end": 81.82000000000001,
+      "text": " I also understand that some opportunities require consistent follow-up",
+      "words": [
+        {
+          "start": 78.12,
+          "end": 78.36,
+          "word": " I",
+          "probability": 0.9973155856132507
+        },
+        {
+          "start": 78.36,
+          "end": 78.62,
+          "word": " also",
+          "probability": 0.9996334314346313
+        },
+        {
+          "start": 78.62,
+          "end": 79.02,
+          "word": " understand",
+          "probability": 0.9992803931236267
+        },
+        {
+          "start": 79.02,
+          "end": 79.24,
+          "word": " that",
+          "probability": 0.9977132081985474
+        },
+        {
+          "start": 79.24,
+          "end": 79.5,
+          "word": " some",
+          "probability": 0.999165415763855
+        },
+        {
+          "start": 79.5,
+          "end": 80.06,
+          "word": " opportunities",
+          "probability": 0.997087299823761
+        },
+        {
+          "start": 80.06,
+          "end": 80.58,
+          "word": " require",
+          "probability": 0.9969712495803833
+        },
+        {
+          "start": 80.58,
+          "end": 81.18,
+          "word": " consistent",
+          "probability": 0.9644442796707153
+        },
+        {
+          "start": 81.18,
+          "end": 81.56,
+          "word": " follow",
+          "probability": 0.9989966750144958
+        },
+        {
+          "start": 81.56,
+          "end": 81.88,
+          "word": "-up",
+          "probability": 0.8776135742664337
+        }
+      ]
+    },
+    {
+      "start": 81.88,
+      "end": 83.26,
+      "text": " rather than a single conversation,",
+      "words": [
+        {
+          "start": 81.88,
+          "end": 82.08,
+          "word": " rather",
+          "probability": 0.7249059081077576
+        },
+        {
+          "start": 82.08,
+          "end": 82.36,
+          "word": " than",
+          "probability": 0.9971022009849548
+        },
+        {
+          "start": 82.36,
+          "end": 82.48,
+          "word": " a",
+          "probability": 0.9916118383407593
+        },
+        {
+          "start": 82.48,
+          "end": 82.74,
+          "word": " single",
+          "probability": 0.9967723488807678
+        },
+        {
+          "start": 82.74,
+          "end": 83.26,
+          "word": " conversation,",
+          "probability": 0.9977005124092102
+        }
+      ]
+    },
+    {
+      "start": 83.82,
+      "end": 87.88,
+      "text": " so I focus on maintaining communication and keeping promising leads engaged.",
+      "words": [
+        {
+          "start": 83.82,
+          "end": 84.06,
+          "word": " so",
+          "probability": 0.9914616346359253
+        },
+        {
+          "start": 84.06,
+          "end": 84.18,
+          "word": " I",
+          "probability": 0.9915277361869812
+        },
+        {
+          "start": 84.18,
+          "end": 84.38,
+          "word": " focus",
+          "probability": 0.9982859492301941
+        },
+        {
+          "start": 84.38,
+          "end": 84.68,
+          "word": " on",
+          "probability": 0.9982694387435913
+        },
+        {
+          "start": 84.68,
+          "end": 85.08,
+          "word": " maintaining",
+          "probability": 0.9939020872116089
+        },
+        {
+          "start": 85.08,
+          "end": 85.74,
+          "word": " communication",
+          "probability": 0.9972720742225647
+        },
+        {
+          "start": 85.74,
+          "end": 86.22,
+          "word": " and",
+          "probability": 0.9688867330551147
+        },
+        {
+          "start": 86.22,
+          "end": 86.56,
+          "word": " keeping",
+          "probability": 0.9903926849365234
+        },
+        {
+          "start": 86.56,
+          "end": 87.02,
+          "word": " promising",
+          "probability": 0.9990653395652771
+        },
+        {
+          "start": 87.02,
+          "end": 87.32,
+          "word": " leads",
+          "probability": 0.9973059892654419
+        },
+        {
+          "start": 87.32,
+          "end": 87.88,
+          "word": " engaged.",
+          "probability": 0.9979196190834045
+        }
+      ]
+    },
+    {
+      "start": 88.78,
+      "end": 91.68,
+      "text": " As a lead manager, I look beyond the initial conversation.",
+      "words": [
+        {
+          "start": 88.78,
+          "end": 88.9,
+          "word": " As",
+          "probability": 0.9887841939926147
+        },
+        {
+          "start": 88.9,
+          "end": 89.04,
+          "word": " a",
+          "probability": 0.9900341629981995
+        },
+        {
+          "start": 89.04,
+          "end": 89.16,
+          "word": " lead",
+          "probability": 0.4035717844963074
+        },
+        {
+          "start": 89.16,
+          "end": 89.58,
+          "word": " manager,",
+          "probability": 0.9953275918960571
+        },
+        {
+          "start": 89.86,
+          "end": 90.06,
+          "word": " I",
+          "probability": 0.998810887336731
+        },
+        {
+          "start": 90.06,
+          "end": 90.22,
+          "word": " look",
+          "probability": 0.9972865581512451
+        },
+        {
+          "start": 90.22,
+          "end": 90.62,
+          "word": " beyond",
+          "probability": 0.9989016056060791
+        },
+        {
+          "start": 90.62,
+          "end": 90.82,
+          "word": " the",
+          "probability": 0.9982048273086548
+        },
+        {
+          "start": 90.82,
+          "end": 91.1,
+          "word": " initial",
+          "probability": 0.9948798418045044
+        },
+        {
+          "start": 91.1,
+          "end": 91.68,
+          "word": " conversation.",
+          "probability": 0.9985222220420837
+        }
+      ]
+    },
+    {
+      "start": 92.32,
+      "end": 96.12,
+      "text": " I focus on lead qualification, follow-up, pipeline organization,",
+      "words": [
+        {
+          "start": 92.32,
+          "end": 92.48,
+          "word": " I",
+          "probability": 0.9987088441848755
+        },
+        {
+          "start": 92.48,
+          "end": 92.72,
+          "word": " focus",
+          "probability": 0.9990721940994263
+        },
+        {
+          "start": 92.72,
+          "end": 93.0,
+          "word": " on",
+          "probability": 0.9994614720344543
+        },
+        {
+          "start": 93.0,
+          "end": 93.2,
+          "word": " lead",
+          "probability": 0.9681766629219055
+        },
+        {
+          "start": 93.2,
+          "end": 93.8,
+          "word": " qualification,",
+          "probability": 0.996380627155304
+        },
+        {
+          "start": 94.4,
+          "end": 94.58,
+          "word": " follow",
+          "probability": 0.9969573020935059
+        },
+        {
+          "start": 94.58,
+          "end": 94.88,
+          "word": "-up,",
+          "probability": 0.8463491499423981
+        },
+        {
+          "start": 95.58,
+          "end": 95.58,
+          "word": " pipeline",
+          "probability": 0.9971969127655029
+        },
+        {
+          "start": 95.58,
+          "end": 96.12,
+          "word": " organization,",
+          "probability": 0.9261309504508972
+        }
+      ]
+    },
+    {
+      "start": 96.6,
+      "end": 99.76,
+      "text": " and making sure important information is documented accurately.",
+      "words": [
+        {
+          "start": 96.6,
+          "end": 96.76,
+          "word": " and",
+          "probability": 0.9975130558013916
+        },
+        {
+          "start": 96.76,
+          "end": 97.02,
+          "word": " making",
+          "probability": 0.9988755583763123
+        },
+        {
+          "start": 97.02,
+          "end": 97.26,
+          "word": " sure",
+          "probability": 0.9994217157363892
+        },
+        {
+          "start": 97.26,
+          "end": 97.72,
+          "word": " important",
+          "probability": 0.9971504807472229
+        },
+        {
+          "start": 97.72,
+          "end": 98.22,
+          "word": " information",
+          "probability": 0.9995038509368896
+        },
+        {
+          "start": 98.22,
+          "end": 98.58,
+          "word": " is",
+          "probability": 0.9992475509643555
+        },
+        {
+          "start": 98.58,
+          "end": 99.12,
+          "word": " documented",
+          "probability": 0.9984336495399475
+        },
+        {
+          "start": 99.12,
+          "end": 99.76,
+          "word": " accurately.",
+          "probability": 0.9993131160736084
+        }
+      ]
+    },
+    {
+      "start": 100.5,
+      "end": 102.58,
+      "text": " My goal is to keep opportunities moving,",
+      "words": [
+        {
+          "start": 100.5,
+          "end": 100.7,
+          "word": " My",
+          "probability": 0.998786985874176
+        },
+        {
+          "start": 100.7,
+          "end": 100.92,
+          "word": " goal",
+          "probability": 0.9996190071105957
+        },
+        {
+          "start": 100.92,
+          "end": 101.14,
+          "word": " is",
+          "probability": 0.9991911053657532
+        },
+        {
+          "start": 101.14,
+          "end": 101.3,
+          "word": " to",
+          "probability": 0.9982712268829346
+        },
+        {
+          "start": 101.3,
+          "end": 101.5,
+          "word": " keep",
+          "probability": 0.9946565628051758
+        },
+        {
+          "start": 101.5,
+          "end": 102.06,
+          "word": " opportunities",
+          "probability": 0.9976550340652466
+        },
+        {
+          "start": 102.06,
+          "end": 102.58,
+          "word": " moving,",
+          "probability": 0.9991196990013123
+        }
+      ]
+    },
+    {
+      "start": 102.94,
+      "end": 104.98,
+      "text": " prevent qualified leads from being overlooked,",
+      "words": [
+        {
+          "start": 102.94,
+          "end": 103.28,
+          "word": " prevent",
+          "probability": 0.9971684813499451
+        },
+        {
+          "start": 103.28,
+          "end": 103.78,
+          "word": " qualified",
+          "probability": 0.9990807771682739
+        },
+        {
+          "start": 103.78,
+          "end": 104.06,
+          "word": " leads",
+          "probability": 0.9989132881164551
+        },
+        {
+          "start": 104.06,
+          "end": 104.3,
+          "word": " from",
+          "probability": 0.997798502445221
+        },
+        {
+          "start": 104.3,
+          "end": 104.5,
+          "word": " being",
+          "probability": 0.9988625049591064
+        },
+        {
+          "start": 104.5,
+          "end": 104.98,
+          "word": " overlooked,",
+          "probability": 0.998815655708313
+        }
+      ]
+    },
+    {
+      "start": 105.3,
+      "end": 107.56,
+      "text": " and provide the acquisitions team with clear,",
+      "words": [
+        {
+          "start": 105.3,
+          "end": 105.52,
+          "word": " and",
+          "probability": 0.9988585710525513
+        },
+        {
+          "start": 105.52,
+          "end": 105.84,
+          "word": " provide",
+          "probability": 0.9987623691558838
+        },
+        {
+          "start": 105.84,
+          "end": 106.04,
+          "word": " the",
+          "probability": 0.999336302280426
+        },
+        {
+          "start": 106.04,
+          "end": 106.46,
+          "word": " acquisitions",
+          "probability": 0.8984551429748535
+        },
+        {
+          "start": 106.46,
+          "end": 106.86,
+          "word": " team",
+          "probability": 0.9906930327415466
+        },
+        {
+          "start": 106.86,
+          "end": 107.1,
+          "word": " with",
+          "probability": 0.9987989664077759
+        },
+        {
+          "start": 107.1,
+          "end": 107.56,
+          "word": " clear,",
+          "probability": 0.9980097413063049
+        }
+      ]
+    },
+    {
+      "start": 107.9,
+      "end": 110.58,
+      "text": " useful information so they can decide on the next step.",
+      "words": [
+        {
+          "start": 107.9,
+          "end": 108.22,
+          "word": " useful",
+          "probability": 0.998856782913208
+        },
+        {
+          "start": 108.22,
+          "end": 108.82,
+          "word": " information",
+          "probability": 0.9988906979560852
+        },
+        {
+          "start": 108.82,
+          "end": 109.2,
+          "word": " so",
+          "probability": 0.9138190150260925
+        },
+        {
+          "start": 109.2,
+          "end": 109.36,
+          "word": " they",
+          "probability": 0.9909012317657471
+        },
+        {
+          "start": 109.36,
+          "end": 109.48,
+          "word": " can",
+          "probability": 0.9977203011512756
+        },
+        {
+          "start": 109.48,
+          "end": 109.8,
+          "word": " decide",
+          "probability": 0.9994696974754333
+        },
+        {
+          "start": 109.8,
+          "end": 109.98,
+          "word": " on",
+          "probability": 0.9985606074333191
+        },
+        {
+          "start": 109.98,
+          "end": 110.1,
+          "word": " the",
+          "probability": 0.9988678693771362
+        },
+        {
+          "start": 110.1,
+          "end": 110.28,
+          "word": " next",
+          "probability": 0.999617338180542
+        },
+        {
+          "start": 110.28,
+          "end": 110.58,
+          "word": " step.",
+          "probability": 0.9991587400436401
+        }
+      ]
+    },
+    {
+      "start": 111.14,
+      "end": 114.78,
+      "text": " I also have experience with appointment setting, coordinating next steps,",
+      "words": [
+        {
+          "start": 111.14,
+          "end": 111.46,
+          "word": " I",
+          "probability": 0.8103012442588806
+        },
+        {
+          "start": 111.46,
+          "end": 111.68,
+          "word": " also",
+          "probability": 0.9855162501335144
+        },
+        {
+          "start": 111.68,
+          "end": 111.86,
+          "word": " have",
+          "probability": 0.9964943528175354
+        },
+        {
+          "start": 111.86,
+          "end": 112.34,
+          "word": " experience",
+          "probability": 0.9818384647369385
+        },
+        {
+          "start": 112.34,
+          "end": 112.6,
+          "word": " with",
+          "probability": 0.9982099533081055
+        },
+        {
+          "start": 112.6,
+          "end": 112.88,
+          "word": " appointment",
+          "probability": 0.9662522673606873
+        },
+        {
+          "start": 112.88,
+          "end": 113.36,
+          "word": " setting,",
+          "probability": 0.9676823616027832
+        },
+        {
+          "start": 113.82,
+          "end": 114.12,
+          "word": " coordinating",
+          "probability": 0.9847567677497864
+        },
+        {
+          "start": 114.12,
+          "end": 114.46,
+          "word": " next",
+          "probability": 0.9903193712234497
+        },
+        {
+          "start": 114.46,
+          "end": 114.78,
+          "word": " steps,",
+          "probability": 0.9917140007019043
+        }
+      ]
+    },
+    {
+      "start": 115.1,
+      "end": 119.56,
+      "text": " and supporting the sales process from initial contact through qualification and handoff.",
+      "words": [
+        {
+          "start": 115.1,
+          "end": 115.3,
+          "word": " and",
+          "probability": 0.9973510503768921
+        },
+        {
+          "start": 115.3,
+          "end": 115.66,
+          "word": " supporting",
+          "probability": 0.995766282081604
+        },
+        {
+          "start": 115.66,
+          "end": 115.88,
+          "word": " the",
+          "probability": 0.9985116124153137
+        },
+        {
+          "start": 115.88,
+          "end": 116.08,
+          "word": " sales",
+          "probability": 0.9790271520614624
+        },
+        {
+          "start": 116.08,
+          "end": 116.56,
+          "word": " process",
+          "probability": 0.9959496259689331
+        },
+        {
+          "start": 116.56,
+          "end": 116.84,
+          "word": " from",
+          "probability": 0.9893198013305664
+        },
+        {
+          "start": 116.84,
+          "end": 117.12,
+          "word": " initial",
+          "probability": 0.9568012952804565
+        },
+        {
+          "start": 117.12,
+          "end": 117.74,
+          "word": " contact",
+          "probability": 0.9989287257194519
+        },
+        {
+          "start": 117.74,
+          "end": 118.04,
+          "word": " through",
+          "probability": 0.9507595896720886
+        },
+        {
+          "start": 118.04,
+          "end": 118.58,
+          "word": " qualification",
+          "probability": 0.989910900592804
+        },
+        {
+          "start": 118.58,
+          "end": 119.08,
+          "word": " and",
+          "probability": 0.9917641282081604
+        },
+        {
+          "start": 119.08,
+          "end": 119.56,
+          "word": " handoff.",
+          "probability": 0.9282139241695404
+        }
+      ]
+    },
+    {
+      "start": 120.16,
+      "end": 123.0,
+      "text": " I understand the importance of respecting a client's process,",
+      "words": [
+        {
+          "start": 120.16,
+          "end": 120.36,
+          "word": " I",
+          "probability": 0.9980347752571106
+        },
+        {
+          "start": 120.36,
+          "end": 120.64,
+          "word": " understand",
+          "probability": 0.9984560012817383
+        },
+        {
+          "start": 120.64,
+          "end": 120.94,
+          "word": " the",
+          "probability": 0.9994189739227295
+        },
+        {
+          "start": 120.94,
+          "end": 121.32,
+          "word": " importance",
+          "probability": 0.999444305896759
+        },
+        {
+          "start": 121.32,
+          "end": 121.56,
+          "word": " of",
+          "probability": 0.9989756345748901
+        },
+        {
+          "start": 121.56,
+          "end": 121.96,
+          "word": " respecting",
+          "probability": 0.9990948438644409
+        },
+        {
+          "start": 121.96,
+          "end": 122.2,
+          "word": " a",
+          "probability": 0.9961052536964417
+        },
+        {
+          "start": 122.2,
+          "end": 122.6,
+          "word": " client's",
+          "probability": 0.9829808175563812
+        },
+        {
+          "start": 122.6,
+          "end": 123.0,
+          "word": " process,",
+          "probability": 0.9973446726799011
+        }
+      ]
+    },
+    {
+      "start": 123.32,
+      "end": 126.28,
+      "text": " following the right criteria, and keeping the team informed.",
+      "words": [
+        {
+          "start": 123.32,
+          "end": 123.7,
+          "word": " following",
+          "probability": 0.9985106587409973
+        },
+        {
+          "start": 123.7,
+          "end": 123.9,
+          "word": " the",
+          "probability": 0.9991857409477234
+        },
+        {
+          "start": 123.9,
+          "end": 124.08,
+          "word": " right",
+          "probability": 0.9983634352684021
+        },
+        {
+          "start": 124.08,
+          "end": 124.5,
+          "word": " criteria,",
+          "probability": 0.9976329803466797
+        },
+        {
+          "start": 124.88,
+          "end": 125.12,
+          "word": " and",
+          "probability": 0.9990628361701965
+        },
+        {
+          "start": 125.12,
+          "end": 125.34,
+          "word": " keeping",
+          "probability": 0.9991992115974426
+        },
+        {
+          "start": 125.34,
+          "end": 125.6,
+          "word": " the",
+          "probability": 0.9992424249649048
+        },
+        {
+          "start": 125.6,
+          "end": 125.82,
+          "word": " team",
+          "probability": 0.9987812638282776
+        },
+        {
+          "start": 125.82,
+          "end": 126.28,
+          "word": " informed.",
+          "probability": 0.9977845549583435
+        }
+      ]
+    },
+    {
+      "start": 126.9,
+      "end": 129.86,
+      "text": " I'm also comfortable working with the systems behind the process.",
+      "words": [
+        {
+          "start": 126.9,
+          "end": 127.12,
+          "word": " I'm",
+          "probability": 0.9797224998474121
+        },
+        {
+          "start": 127.12,
+          "end": 127.36,
+          "word": " also",
+          "probability": 0.9990398287773132
+        },
+        {
+          "start": 127.36,
+          "end": 127.74,
+          "word": " comfortable",
+          "probability": 0.9975000023841858
+        },
+        {
+          "start": 127.74,
+          "end": 128.08,
+          "word": " working",
+          "probability": 0.9913460612297058
+        },
+        {
+          "start": 128.08,
+          "end": 128.34,
+          "word": " with",
+          "probability": 0.998884379863739
+        },
+        {
+          "start": 128.34,
+          "end": 128.5,
+          "word": " the",
+          "probability": 0.9953294992446899
+        },
+        {
+          "start": 128.5,
+          "end": 128.8,
+          "word": " systems",
+          "probability": 0.9824551939964294
+        },
+        {
+          "start": 128.8,
+          "end": 129.24,
+          "word": " behind",
+          "probability": 0.9984902143478394
+        },
+        {
+          "start": 129.24,
+          "end": 129.44,
+          "word": " the",
+          "probability": 0.9983645081520081
+        },
+        {
+          "start": 129.44,
+          "end": 129.86,
+          "word": " process.",
+          "probability": 0.998513400554657
+        }
+      ]
+    },
+    {
+      "start": 130.5,
+      "end": 135.18,
+      "text": " I've worked with tools and platforms such as Go High Level, Ready Mode, Call Tools,",
+      "words": [
+        {
+          "start": 130.5,
+          "end": 130.72,
+          "word": " I've",
+          "probability": 0.9881853759288788
+        },
+        {
+          "start": 130.72,
+          "end": 130.86,
+          "word": " worked",
+          "probability": 0.9982430934906006
+        },
+        {
+          "start": 130.86,
+          "end": 131.06,
+          "word": " with",
+          "probability": 0.9994655251502991
+        },
+        {
+          "start": 131.06,
+          "end": 131.34,
+          "word": " tools",
+          "probability": 0.9940804839134216
+        },
+        {
+          "start": 131.34,
+          "end": 131.58,
+          "word": " and",
+          "probability": 0.9900846481323242
+        },
+        {
+          "start": 131.58,
+          "end": 132.04,
+          "word": " platforms",
+          "probability": 0.9838241338729858
+        },
+        {
+          "start": 132.04,
+          "end": 132.32,
+          "word": " such",
+          "probability": 0.8779168725013733
+        },
+        {
+          "start": 132.32,
+          "end": 132.56,
+          "word": " as",
+          "probability": 0.9982536435127258
+        },
+        {
+          "start": 132.56,
+          "end": 132.7,
+          "word": " Go",
+          "probability": 0.5133095383644104
+        },
+        {
+          "start": 132.7,
+          "end": 132.88,
+          "word": " High",
+          "probability": 0.453080415725708
+        },
+        {
+          "start": 132.88,
+          "end": 133.2,
+          "word": " Level,",
+          "probability": 0.9212403297424316
+        },
+        {
+          "start": 133.72,
+          "end": 133.86,
+          "word": " Ready",
+          "probability": 0.9211670756340027
+        },
+        {
+          "start": 133.86,
+          "end": 134.14,
+          "word": " Mode,",
+          "probability": 0.9215274453163147
+        },
+        {
+          "start": 134.58,
+          "end": 134.76,
+          "word": " Call",
+          "probability": 0.9593668580055237
+        },
+        {
+          "start": 134.76,
+          "end": 135.18,
+          "word": " Tools,",
+          "probability": 0.9597154855728149
+        }
+      ]
+    },
+    {
+      "start": 135.18,
+      "end": 140.78,
+      "text": " REI-Sift, Mojo Dialer, Enzo, and other CRM and lead management systems.",
+      "words": [
+        {
+          "start": 135.18,
+          "end": 136.02,
+          "word": " REI",
+          "probability": 0.5406458079814911
+        },
+        {
+          "start": 136.02,
+          "end": 136.38,
+          "word": "-Sift,",
+          "probability": 0.5033915340900421
+        },
+        {
+          "start": 136.84,
+          "end": 137.08,
+          "word": " Mojo",
+          "probability": 0.9080710709095001
+        },
+        {
+          "start": 137.08,
+          "end": 137.58,
+          "word": " Dialer,",
+          "probability": 0.5628861114382744
+        },
+        {
+          "start": 137.96,
+          "end": 138.16,
+          "word": " Enzo,",
+          "probability": 0.9658511877059937
+        },
+        {
+          "start": 138.62,
+          "end": 138.66,
+          "word": " and",
+          "probability": 0.986503005027771
+        },
+        {
+          "start": 138.66,
+          "end": 138.9,
+          "word": " other",
+          "probability": 0.9947828650474548
+        },
+        {
+          "start": 138.9,
+          "end": 139.5,
+          "word": " CRM",
+          "probability": 0.9949113130569458
+        },
+        {
+          "start": 139.5,
+          "end": 139.7,
+          "word": " and",
+          "probability": 0.9645820260047913
+        },
+        {
+          "start": 139.7,
+          "end": 139.86,
+          "word": " lead",
+          "probability": 0.7639768719673157
+        },
+        {
+          "start": 139.86,
+          "end": 140.28,
+          "word": " management",
+          "probability": 0.991927981376648
+        },
+        {
+          "start": 140.28,
+          "end": 140.78,
+          "word": " systems.",
+          "probability": 0.995270311832428
+        }
+      ]
+    },
+    {
+      "start": 141.44,
+      "end": 145.18,
+      "text": " I understand that these tools are only as useful as the way they're managed.",
+      "words": [
+        {
+          "start": 141.44,
+          "end": 141.62,
+          "word": " I",
+          "probability": 0.993381142616272
+        },
+        {
+          "start": 141.62,
+          "end": 142.0,
+          "word": " understand",
+          "probability": 0.9940993785858154
+        },
+        {
+          "start": 142.0,
+          "end": 142.26,
+          "word": " that",
+          "probability": 0.9855196475982666
+        },
+        {
+          "start": 142.26,
+          "end": 142.5,
+          "word": " these",
+          "probability": 0.9962783455848694
+        },
+        {
+          "start": 142.5,
+          "end": 142.76,
+          "word": " tools",
+          "probability": 0.9972177743911743
+        },
+        {
+          "start": 142.76,
+          "end": 142.98,
+          "word": " are",
+          "probability": 0.9975780844688416
+        },
+        {
+          "start": 142.98,
+          "end": 143.32,
+          "word": " only",
+          "probability": 0.9967331886291504
+        },
+        {
+          "start": 143.32,
+          "end": 143.54,
+          "word": " as",
+          "probability": 0.993817150592804
+        },
+        {
+          "start": 143.54,
+          "end": 143.86,
+          "word": " useful",
+          "probability": 0.9989155530929565
+        },
+        {
+          "start": 143.86,
+          "end": 144.18,
+          "word": " as",
+          "probability": 0.9958305954933167
+        },
+        {
+          "start": 144.18,
+          "end": 144.3,
+          "word": " the",
+          "probability": 0.9909288287162781
+        },
+        {
+          "start": 144.3,
+          "end": 144.5,
+          "word": " way",
+          "probability": 0.9985277652740479
+        },
+        {
+          "start": 144.5,
+          "end": 144.72,
+          "word": " they're",
+          "probability": 0.9297305345535278
+        },
+        {
+          "start": 144.72,
+          "end": 145.18,
+          "word": " managed.",
+          "probability": 0.9988234639167786
+        }
+      ]
+    },
+    {
+      "start": 145.42,
+      "end": 147.8,
+      "text": " That's why I pay attention to accurate records,",
+      "words": [
+        {
+          "start": 145.42,
+          "end": 145.68,
+          "word": " That's",
+          "probability": 0.9882097244262695
+        },
+        {
+          "start": 145.68,
+          "end": 145.84,
+          "word": " why",
+          "probability": 0.9992398023605347
+        },
+        {
+          "start": 145.84,
+          "end": 146.0,
+          "word": " I",
+          "probability": 0.9953505992889404
+        },
+        {
+          "start": 146.0,
+          "end": 146.16,
+          "word": " pay",
+          "probability": 0.9977028965950012
+        },
+        {
+          "start": 146.16,
+          "end": 146.5,
+          "word": " attention",
+          "probability": 0.9982775449752808
+        },
+        {
+          "start": 146.5,
+          "end": 146.82,
+          "word": " to",
+          "probability": 0.9989398121833801
+        },
+        {
+          "start": 146.82,
+          "end": 147.18,
+          "word": " accurate",
+          "probability": 0.9906762838363647
+        },
+        {
+          "start": 147.18,
+          "end": 147.8,
+          "word": " records,",
+          "probability": 0.9928317070007324
+        }
+      ]
+    },
+    {
+      "start": 148.28,
+      "end": 152.02,
+      "text": " organized pipelines, consistent follow-ups, and clear next actions.",
+      "words": [
+        {
+          "start": 148.28,
+          "end": 148.48,
+          "word": " organized",
+          "probability": 0.9738872647285461
+        },
+        {
+          "start": 148.48,
+          "end": 149.1,
+          "word": " pipelines,",
+          "probability": 0.9836540818214417
+        },
+        {
+          "start": 150.0,
+          "end": 150.0,
+          "word": " consistent",
+          "probability": 0.998371422290802
+        },
+        {
+          "start": 150.0,
+          "end": 150.32,
+          "word": " follow",
+          "probability": 0.9993318915367126
+        },
+        {
+          "start": 150.32,
+          "end": 150.6,
+          "word": "-ups,",
+          "probability": 0.7699476480484009
+        },
+        {
+          "start": 150.86,
+          "end": 150.94,
+          "word": " and",
+          "probability": 0.998666524887085
+        },
+        {
+          "start": 150.94,
+          "end": 151.3,
+          "word": " clear",
+          "probability": 0.9960495829582214
+        },
+        {
+          "start": 151.3,
+          "end": 151.54,
+          "word": " next",
+          "probability": 0.9390491843223572
+        },
+        {
+          "start": 151.54,
+          "end": 152.02,
+          "word": " actions.",
+          "probability": 0.9452744126319885
+        }
+      ]
+    },
+    {
+      "start": 152.62,
+      "end": 154.92,
+      "text": " I can also adapt to new tools and workflows",
+      "words": [
+        {
+          "start": 152.62,
+          "end": 152.84,
+          "word": " I",
+          "probability": 0.9984598159790039
+        },
+        {
+          "start": 152.84,
+          "end": 152.96,
+          "word": " can",
+          "probability": 0.9983187913894653
+        },
+        {
+          "start": 152.96,
+          "end": 153.2,
+          "word": " also",
+          "probability": 0.9987038373947144
+        },
+        {
+          "start": 153.2,
+          "end": 153.54,
+          "word": " adapt",
+          "probability": 0.9975454211235046
+        },
+        {
+          "start": 153.54,
+          "end": 153.72,
+          "word": " to",
+          "probability": 0.9987687468528748
+        },
+        {
+          "start": 153.72,
+          "end": 153.92,
+          "word": " new",
+          "probability": 0.9979032278060913
+        },
+        {
+          "start": 153.92,
+          "end": 154.28,
+          "word": " tools",
+          "probability": 0.99899822473526
+        },
+        {
+          "start": 154.28,
+          "end": 154.44,
+          "word": " and",
+          "probability": 0.9969306588172913
+        },
+        {
+          "start": 154.44,
+          "end": 154.92,
+          "word": " workflows",
+          "probability": 0.9902931153774261
+        }
+      ]
+    },
+    {
+      "start": 154.92,
+      "end": 157.12,
+      "text": " when a business has its own systems in place.",
+      "words": [
+        {
+          "start": 154.92,
+          "end": 155.22,
+          "word": " when",
+          "probability": 0.9839370846748352
+        },
+        {
+          "start": 155.22,
+          "end": 155.34,
+          "word": " a",
+          "probability": 0.9968124032020569
+        },
+        {
+          "start": 155.34,
+          "end": 155.5,
+          "word": " business",
+          "probability": 0.9982196688652039
+        },
+        {
+          "start": 155.5,
+          "end": 155.84,
+          "word": " has",
+          "probability": 0.998766303062439
+        },
+        {
+          "start": 155.84,
+          "end": 156.04,
+          "word": " its",
+          "probability": 0.9847981333732605
+        },
+        {
+          "start": 156.04,
+          "end": 156.2,
+          "word": " own",
+          "probability": 0.9975817203521729
+        },
+        {
+          "start": 156.2,
+          "end": 156.56,
+          "word": " systems",
+          "probability": 0.9932143688201904
+        },
+        {
+          "start": 156.56,
+          "end": 156.82,
+          "word": " in",
+          "probability": 0.9975290894508362
+        },
+        {
+          "start": 156.82,
+          "end": 157.12,
+          "word": " place.",
+          "probability": 0.9994651675224304
+        }
+      ]
+    },
+    {
+      "start": 157.64,
+      "end": 160.44,
+      "text": " Beyond the technical side, I bring strong communication,",
+      "words": [
+        {
+          "start": 157.64,
+          "end": 157.9,
+          "word": " Beyond",
+          "probability": 0.9943753480911255
+        },
+        {
+          "start": 157.9,
+          "end": 158.1,
+          "word": " the",
+          "probability": 0.9994301199913025
+        },
+        {
+          "start": 158.1,
+          "end": 158.42,
+          "word": " technical",
+          "probability": 0.9990037083625793
+        },
+        {
+          "start": 158.42,
+          "end": 158.82,
+          "word": " side,",
+          "probability": 0.9989868998527527
+        },
+        {
+          "start": 159.1,
+          "end": 159.26,
+          "word": " I",
+          "probability": 0.9986697435379028
+        },
+        {
+          "start": 159.26,
+          "end": 159.44,
+          "word": " bring",
+          "probability": 0.9924352765083313
+        },
+        {
+          "start": 159.44,
+          "end": 159.82,
+          "word": " strong",
+          "probability": 0.9985837936401367
+        },
+        {
+          "start": 159.82,
+          "end": 160.44,
+          "word": " communication,",
+          "probability": 0.9968543648719788
+        }
+      ]
+    },
+    {
+      "start": 160.98,
+      "end": 164.02,
+      "text": " consistency, accountability, and a willingness to learn.",
+      "words": [
+        {
+          "start": 160.98,
+          "end": 161.48,
+          "word": " consistency,",
+          "probability": 0.9978368878364563
+        },
+        {
+          "start": 162.02,
+          "end": 162.46,
+          "word": " accountability,",
+          "probability": 0.9977883100509644
+        },
+        {
+          "start": 162.94,
+          "end": 163.04,
+          "word": " and",
+          "probability": 0.9993484616279602
+        },
+        {
+          "start": 163.04,
+          "end": 163.14,
+          "word": " a",
+          "probability": 0.8867756128311157
+        },
+        {
+          "start": 163.14,
+          "end": 163.42,
+          "word": " willingness",
+          "probability": 0.9984985589981079
+        },
+        {
+          "start": 163.42,
+          "end": 163.78,
+          "word": " to",
+          "probability": 0.9997690320014954
+        },
+        {
+          "start": 163.78,
+          "end": 164.02,
+          "word": " learn.",
+          "probability": 0.9993834495544434
+        }
+      ]
+    },
+    {
+      "start": 164.02,
+      "end": 167.98,
+      "text": " I'm comfortable working remotely, following established processes,",
+      "words": [
+        {
+          "start": 164.02,
+          "end": 164.88,
+          "word": " I'm",
+          "probability": 0.8369704782962799
+        },
+        {
+          "start": 164.88,
+          "end": 165.18,
+          "word": " comfortable",
+          "probability": 0.9902944564819336
+        },
+        {
+          "start": 165.18,
+          "end": 165.62,
+          "word": " working",
+          "probability": 0.9973562955856323
+        },
+        {
+          "start": 165.62,
+          "end": 166.14,
+          "word": " remotely,",
+          "probability": 0.9981990456581116
+        },
+        {
+          "start": 166.36,
+          "end": 166.8,
+          "word": " following",
+          "probability": 0.9975112676620483
+        },
+        {
+          "start": 166.8,
+          "end": 167.24,
+          "word": " established",
+          "probability": 0.9964905381202698
+        },
+        {
+          "start": 167.24,
+          "end": 167.98,
+          "word": " processes,",
+          "probability": 0.9956303834915161
+        }
+      ]
+    },
+    {
+      "start": 168.42,
+      "end": 172.14,
+      "text": " managing my responsibilities, and communicating with clients and team members.",
+      "words": [
+        {
+          "start": 168.42,
+          "end": 168.68,
+          "word": " managing",
+          "probability": 0.9966506361961365
+        },
+        {
+          "start": 168.68,
+          "end": 168.94,
+          "word": " my",
+          "probability": 0.9907954335212708
+        },
+        {
+          "start": 168.94,
+          "end": 169.54,
+          "word": " responsibilities,",
+          "probability": 0.9918417930603027
+        },
+        {
+          "start": 170.08,
+          "end": 170.18,
+          "word": " and",
+          "probability": 0.9964926838874817
+        },
+        {
+          "start": 170.18,
+          "end": 170.58,
+          "word": " communicating",
+          "probability": 0.9974338412284851
+        },
+        {
+          "start": 170.58,
+          "end": 171.02,
+          "word": " with",
+          "probability": 0.9991416931152344
+        },
+        {
+          "start": 171.02,
+          "end": 171.36,
+          "word": " clients",
+          "probability": 0.9898043870925903
+        },
+        {
+          "start": 171.36,
+          "end": 171.62,
+          "word": " and",
+          "probability": 0.9960963129997253
+        },
+        {
+          "start": 171.62,
+          "end": 171.82,
+          "word": " team",
+          "probability": 0.9974265694618225
+        },
+        {
+          "start": 171.82,
+          "end": 172.14,
+          "word": " members.",
+          "probability": 0.9954769015312195
+        }
+      ]
+    },
+    {
+      "start": 172.76,
+      "end": 175.92,
+      "text": " I take feedback seriously, work toward agreed targets,",
+      "words": [
+        {
+          "start": 172.76,
+          "end": 172.88,
+          "word": " I",
+          "probability": 0.9972212314605713
+        },
+        {
+          "start": 172.88,
+          "end": 173.08,
+          "word": " take",
+          "probability": 0.9984477758407593
+        },
+        {
+          "start": 173.08,
+          "end": 173.44,
+          "word": " feedback",
+          "probability": 0.9992478489875793
+        },
+        {
+          "start": 173.44,
+          "end": 174.22,
+          "word": " seriously,",
+          "probability": 0.9900818467140198
+        },
+        {
+          "start": 174.56,
+          "end": 174.82,
+          "word": " work",
+          "probability": 0.9950426816940308
+        },
+        {
+          "start": 174.82,
+          "end": 175.12,
+          "word": " toward",
+          "probability": 0.9649650454521179
+        },
+        {
+          "start": 175.12,
+          "end": 175.46,
+          "word": " agreed",
+          "probability": 0.9778690934181213
+        },
+        {
+          "start": 175.46,
+          "end": 175.92,
+          "word": " targets,",
+          "probability": 0.9968008995056152
+        }
+      ]
+    },
+    {
+      "start": 176.22,
+      "end": 179.08,
+      "text": " and focus on improving the quality of my work over time.",
+      "words": [
+        {
+          "start": 176.22,
+          "end": 176.42,
+          "word": " and",
+          "probability": 0.9989309906959534
+        },
+        {
+          "start": 176.42,
+          "end": 176.6,
+          "word": " focus",
+          "probability": 0.9978618025779724
+        },
+        {
+          "start": 176.6,
+          "end": 176.9,
+          "word": " on",
+          "probability": 0.9990984201431274
+        },
+        {
+          "start": 176.9,
+          "end": 177.26,
+          "word": " improving",
+          "probability": 0.999077320098877
+        },
+        {
+          "start": 177.26,
+          "end": 177.52,
+          "word": " the",
+          "probability": 0.9983327984809875
+        },
+        {
+          "start": 177.52,
+          "end": 177.8,
+          "word": " quality",
+          "probability": 0.9993187189102173
+        },
+        {
+          "start": 177.8,
+          "end": 178.02,
+          "word": " of",
+          "probability": 0.9994919300079346
+        },
+        {
+          "start": 178.02,
+          "end": 178.16,
+          "word": " my",
+          "probability": 0.9981637597084045
+        },
+        {
+          "start": 178.16,
+          "end": 178.44,
+          "word": " work",
+          "probability": 0.999250590801239
+        },
+        {
+          "start": 178.44,
+          "end": 178.7,
+          "word": " over",
+          "probability": 0.9473966360092163
+        },
+        {
+          "start": 178.7,
+          "end": 179.08,
+          "word": " time.",
+          "probability": 0.9994956254959106
+        }
+      ]
+    },
+    {
+      "start": 179.62,
+      "end": 183.32,
+      "text": " I've worked toward performance targets, been recognized as a top achiever,",
+      "words": [
+        {
+          "start": 179.62,
+          "end": 179.82,
+          "word": " I've",
+          "probability": 0.9928760826587677
+        },
+        {
+          "start": 179.82,
+          "end": 179.98,
+          "word": " worked",
+          "probability": 0.9937542080879211
+        },
+        {
+          "start": 179.98,
+          "end": 180.28,
+          "word": " toward",
+          "probability": 0.9665460586547852
+        },
+        {
+          "start": 180.28,
+          "end": 180.84,
+          "word": " performance",
+          "probability": 0.9912831783294678
+        },
+        {
+          "start": 180.84,
+          "end": 181.3,
+          "word": " targets,",
+          "probability": 0.9981278777122498
+        },
+        {
+          "start": 181.62,
+          "end": 181.82,
+          "word": " been",
+          "probability": 0.9918484687805176
+        },
+        {
+          "start": 181.82,
+          "end": 182.26,
+          "word": " recognized",
+          "probability": 0.9829976558685303
+        },
+        {
+          "start": 182.26,
+          "end": 182.52,
+          "word": " as",
+          "probability": 0.998414158821106
+        },
+        {
+          "start": 182.52,
+          "end": 182.68,
+          "word": " a",
+          "probability": 0.9909766912460327
+        },
+        {
+          "start": 182.68,
+          "end": 182.84,
+          "word": " top",
+          "probability": 0.9636079668998718
+        },
+        {
+          "start": 182.84,
+          "end": 183.32,
+          "word": " achiever,",
+          "probability": 0.9943832457065582
+        }
+      ]
+    },
+    {
+      "start": 183.46,
+      "end": 188.58,
+      "text": " and learned how important consistency and attention to detail are in a results-driven environment.",
+      "words": [
+        {
+          "start": 183.46,
+          "end": 183.76,
+          "word": " and",
+          "probability": 0.9980442523956299
+        },
+        {
+          "start": 183.76,
+          "end": 183.96,
+          "word": " learned",
+          "probability": 0.996911883354187
+        },
+        {
+          "start": 183.96,
+          "end": 184.24,
+          "word": " how",
+          "probability": 0.998573899269104
+        },
+        {
+          "start": 184.24,
+          "end": 184.72,
+          "word": " important",
+          "probability": 0.9988633394241333
+        },
+        {
+          "start": 184.72,
+          "end": 185.36,
+          "word": " consistency",
+          "probability": 0.9962016940116882
+        },
+        {
+          "start": 185.36,
+          "end": 185.78,
+          "word": " and",
+          "probability": 0.9978542923927307
+        },
+        {
+          "start": 185.78,
+          "end": 186.1,
+          "word": " attention",
+          "probability": 0.997868537902832
+        },
+        {
+          "start": 186.1,
+          "end": 186.38,
+          "word": " to",
+          "probability": 0.9888108968734741
+        },
+        {
+          "start": 186.38,
+          "end": 186.74,
+          "word": " detail",
+          "probability": 0.9988742470741272
+        },
+        {
+          "start": 186.74,
+          "end": 187.08,
+          "word": " are",
+          "probability": 0.9968621730804443
+        },
+        {
+          "start": 187.08,
+          "end": 187.3,
+          "word": " in",
+          "probability": 0.9948863387107849
+        },
+        {
+          "start": 187.3,
+          "end": 187.4,
+          "word": " a",
+          "probability": 0.9929595589637756
+        },
+        {
+          "start": 187.4,
+          "end": 187.76,
+          "word": " results",
+          "probability": 0.9794060587882996
+        },
+        {
+          "start": 187.76,
+          "end": 188.0,
+          "word": "-driven",
+          "probability": 0.9297329187393188
+        },
+        {
+          "start": 188.0,
+          "end": 188.58,
+          "word": " environment.",
+          "probability": 0.9993776679039001
+        }
+      ]
+    },
+    {
+      "start": 189.22,
+      "end": 192.22,
+      "text": " Whether you need someone to generate leads, speak with homeowners,",
+      "words": [
+        {
+          "start": 189.22,
+          "end": 189.38,
+          "word": " Whether",
+          "probability": 0.9950593709945679
+        },
+        {
+          "start": 189.38,
+          "end": 189.6,
+          "word": " you",
+          "probability": 0.9993680119514465
+        },
+        {
+          "start": 189.6,
+          "end": 189.76,
+          "word": " need",
+          "probability": 0.9997037053108215
+        },
+        {
+          "start": 189.76,
+          "end": 190.06,
+          "word": " someone",
+          "probability": 0.9989752769470215
+        },
+        {
+          "start": 190.06,
+          "end": 190.26,
+          "word": " to",
+          "probability": 0.9995672106742859
+        },
+        {
+          "start": 190.26,
+          "end": 190.62,
+          "word": " generate",
+          "probability": 0.9986155033111572
+        },
+        {
+          "start": 190.62,
+          "end": 191.0,
+          "word": " leads,",
+          "probability": 0.9984486103057861
+        },
+        {
+          "start": 191.32,
+          "end": 191.6,
+          "word": " speak",
+          "probability": 0.9972578883171082
+        },
+        {
+          "start": 191.6,
+          "end": 191.8,
+          "word": " with",
+          "probability": 0.9996011853218079
+        },
+        {
+          "start": 191.8,
+          "end": 192.22,
+          "word": " homeowners,",
+          "probability": 0.9881485104560852
+        }
+      ]
+    },
+    {
+      "start": 192.22,
+      "end": 196.12,
+      "text": " qualify opportunities, book appointments, manage follow-ups,",
+      "words": [
+        {
+          "start": 192.22,
+          "end": 192.86,
+          "word": " qualify",
+          "probability": 0.01662828028202057
+        },
+        {
+          "start": 192.86,
+          "end": 193.84,
+          "word": " opportunities,",
+          "probability": 0.9850130081176758
+        },
+        {
+          "start": 194.22,
+          "end": 194.36,
+          "word": " book",
+          "probability": 0.9786337614059448
+        },
+        {
+          "start": 194.36,
+          "end": 194.88,
+          "word": " appointments,",
+          "probability": 0.9959836006164551
+        },
+        {
+          "start": 195.34,
+          "end": 195.54,
+          "word": " manage",
+          "probability": 0.9934750199317932
+        },
+        {
+          "start": 195.54,
+          "end": 195.82,
+          "word": " follow",
+          "probability": 0.9974752068519592
+        },
+        {
+          "start": 195.82,
+          "end": 196.12,
+          "word": "-ups,",
+          "probability": 0.7391858994960785
+        }
+      ]
+    },
+    {
+      "start": 196.5,
+      "end": 199.8,
+      "text": " organize your pipeline, or support your day-to-day sales operations,",
+      "words": [
+        {
+          "start": 196.5,
+          "end": 196.78,
+          "word": " organize",
+          "probability": 0.9768045544624329
+        },
+        {
+          "start": 196.78,
+          "end": 197.0,
+          "word": " your",
+          "probability": 0.9970184564590454
+        },
+        {
+          "start": 197.0,
+          "end": 197.4,
+          "word": " pipeline,",
+          "probability": 0.996379554271698
+        },
+        {
+          "start": 197.72,
+          "end": 197.88,
+          "word": " or",
+          "probability": 0.9973102807998657
+        },
+        {
+          "start": 197.88,
+          "end": 198.26,
+          "word": " support",
+          "probability": 0.9925777316093445
+        },
+        {
+          "start": 198.26,
+          "end": 198.46,
+          "word": " your",
+          "probability": 0.9967523813247681
+        },
+        {
+          "start": 198.46,
+          "end": 198.62,
+          "word": " day",
+          "probability": 0.9939369559288025
+        },
+        {
+          "start": 198.62,
+          "end": 198.74,
+          "word": "-to",
+          "probability": 0.9266270697116852
+        },
+        {
+          "start": 198.74,
+          "end": 198.92,
+          "word": "-day",
+          "probability": 0.9982577264308929
+        },
+        {
+          "start": 198.92,
+          "end": 199.18,
+          "word": " sales",
+          "probability": 0.9962164759635925
+        },
+        {
+          "start": 199.18,
+          "end": 199.8,
+          "word": " operations,",
+          "probability": 0.9965631365776062
+        }
+      ]
+    },
+    {
+      "start": 200.1,
+      "end": 203.56,
+      "text": " I can help connect those moving parts and keep the process organized.",
+      "words": [
+        {
+          "start": 200.1,
+          "end": 200.44,
+          "word": " I",
+          "probability": 0.9964639544487
+        },
+        {
+          "start": 200.44,
+          "end": 200.56,
+          "word": " can",
+          "probability": 0.9992181062698364
+        },
+        {
+          "start": 200.56,
+          "end": 200.76,
+          "word": " help",
+          "probability": 0.998400866985321
+        },
+        {
+          "start": 200.76,
+          "end": 201.08,
+          "word": " connect",
+          "probability": 0.9948537945747375
+        },
+        {
+          "start": 201.08,
+          "end": 201.32,
+          "word": " those",
+          "probability": 0.9957379102706909
+        },
+        {
+          "start": 201.32,
+          "end": 201.62,
+          "word": " moving",
+          "probability": 0.9990993738174438
+        },
+        {
+          "start": 201.62,
+          "end": 201.98,
+          "word": " parts",
+          "probability": 0.9981566071510315
+        },
+        {
+          "start": 201.98,
+          "end": 202.26,
+          "word": " and",
+          "probability": 0.9590474963188171
+        },
+        {
+          "start": 202.26,
+          "end": 202.46,
+          "word": " keep",
+          "probability": 0.9981746673583984
+        },
+        {
+          "start": 202.46,
+          "end": 202.66,
+          "word": " the",
+          "probability": 0.9990750551223755
+        },
+        {
+          "start": 202.66,
+          "end": 203.02,
+          "word": " process",
+          "probability": 0.9990824460983276
+        },
+        {
+          "start": 203.02,
+          "end": 203.56,
+          "word": " organized.",
+          "probability": 0.9979496598243713
+        }
+      ]
+    },
+    {
+      "start": 204.2,
+      "end": 206.14,
+      "text": " My goal isn't just to complete tasks.",
+      "words": [
+        {
+          "start": 204.2,
+          "end": 204.3,
+          "word": " My",
+          "probability": 0.9896091222763062
+        },
+        {
+          "start": 204.3,
+          "end": 204.52,
+          "word": " goal",
+          "probability": 0.9992986917495728
+        },
+        {
+          "start": 204.52,
+          "end": 204.9,
+          "word": " isn't",
+          "probability": 0.9965398907661438
+        },
+        {
+          "start": 204.9,
+          "end": 205.14,
+          "word": " just",
+          "probability": 0.9977414608001709
+        },
+        {
+          "start": 205.14,
+          "end": 205.3,
+          "word": " to",
+          "probability": 0.9626399278640747
+        },
+        {
+          "start": 205.3,
+          "end": 205.64,
+          "word": " complete",
+          "probability": 0.9978152513504028
+        },
+        {
+          "start": 205.64,
+          "end": 206.14,
+          "word": " tasks.",
+          "probability": 0.9946251511573792
+        }
+      ]
+    },
+    {
+      "start": 206.46,
+      "end": 208.94,
+      "text": " It's to become someone your business can rely on.",
+      "words": [
+        {
+          "start": 206.46,
+          "end": 206.7,
+          "word": " It's",
+          "probability": 0.9917387962341309
+        },
+        {
+          "start": 206.7,
+          "end": 206.84,
+          "word": " to",
+          "probability": 0.9988144636154175
+        },
+        {
+          "start": 206.84,
+          "end": 207.12,
+          "word": " become",
+          "probability": 0.9978857636451721
+        },
+        {
+          "start": 207.12,
+          "end": 207.5,
+          "word": " someone",
+          "probability": 0.9975268244743347
+        },
+        {
+          "start": 207.5,
+          "end": 207.68,
+          "word": " your",
+          "probability": 0.9935625791549683
+        },
+        {
+          "start": 207.68,
+          "end": 207.98,
+          "word": " business",
+          "probability": 0.9986438155174255
+        },
+        {
+          "start": 207.98,
+          "end": 208.22,
+          "word": " can",
+          "probability": 0.9991554021835327
+        },
+        {
+          "start": 208.22,
+          "end": 208.56,
+          "word": " rely",
+          "probability": 0.9995686411857605
+        },
+        {
+          "start": 208.56,
+          "end": 208.94,
+          "word": " on.",
+          "probability": 0.9986948370933533
+        }
+      ]
+    },
+    {
+      "start": 209.4,
+      "end": 211.98,
+      "text": " Someone who communicates clearly, takes ownership,",
+      "words": [
+        {
+          "start": 209.4,
+          "end": 209.6,
+          "word": " Someone",
+          "probability": 0.9929692149162292
+        },
+        {
+          "start": 209.6,
+          "end": 209.8,
+          "word": " who",
+          "probability": 0.9984148740768433
+        },
+        {
+          "start": 209.8,
+          "end": 210.32,
+          "word": " communicates",
+          "probability": 0.9961298704147339
+        },
+        {
+          "start": 210.32,
+          "end": 210.9,
+          "word": " clearly,",
+          "probability": 0.998904824256897
+        },
+        {
+          "start": 211.16,
+          "end": 211.48,
+          "word": " takes",
+          "probability": 0.9949064254760742
+        },
+        {
+          "start": 211.48,
+          "end": 211.98,
+          "word": " ownership,",
+          "probability": 0.9993569254875183
+        }
+      ]
+    },
+    {
+      "start": 212.34,
+      "end": 213.82,
+      "text": " protects the quality of your leads,",
+      "words": [
+        {
+          "start": 212.34,
+          "end": 212.64,
+          "word": " protects",
+          "probability": 0.9976568222045898
+        },
+        {
+          "start": 212.64,
+          "end": 212.9,
+          "word": " the",
+          "probability": 0.9995611310005188
+        },
+        {
+          "start": 212.9,
+          "end": 213.16,
+          "word": " quality",
+          "probability": 0.9992594122886658
+        },
+        {
+          "start": 213.16,
+          "end": 213.4,
+          "word": " of",
+          "probability": 0.9996399879455566
+        },
+        {
+          "start": 213.4,
+          "end": 213.54,
+          "word": " your",
+          "probability": 0.9977450966835022
+        },
+        {
+          "start": 213.54,
+          "end": 213.82,
+          "word": " leads,",
+          "probability": 0.9982333183288574
+        }
+      ]
+    },
+    {
+      "start": 214.18,
+      "end": 217.34,
+      "text": " and helps your team spend more time on the opportunities that matter.",
+      "words": [
+        {
+          "start": 214.18,
+          "end": 214.32,
+          "word": " and",
+          "probability": 0.9987525939941406
+        },
+        {
+          "start": 214.32,
+          "end": 214.56,
+          "word": " helps",
+          "probability": 0.9967567324638367
+        },
+        {
+          "start": 214.56,
+          "end": 214.76,
+          "word": " your",
+          "probability": 0.9967294931411743
+        },
+        {
+          "start": 214.76,
+          "end": 214.98,
+          "word": " team",
+          "probability": 0.991578221321106
+        },
+        {
+          "start": 214.98,
+          "end": 215.26,
+          "word": " spend",
+          "probability": 0.9950113296508789
+        },
+        {
+          "start": 215.26,
+          "end": 215.54,
+          "word": " more",
+          "probability": 0.9986647367477417
+        },
+        {
+          "start": 215.54,
+          "end": 215.84,
+          "word": " time",
+          "probability": 0.9960070252418518
+        },
+        {
+          "start": 215.84,
+          "end": 216.04,
+          "word": " on",
+          "probability": 0.9992528557777405
+        },
+        {
+          "start": 216.04,
+          "end": 216.14,
+          "word": " the",
+          "probability": 0.9985274076461792
+        },
+        {
+          "start": 216.14,
+          "end": 216.62,
+          "word": " opportunities",
+          "probability": 0.9980871677398682
+        },
+        {
+          "start": 216.62,
+          "end": 217.0,
+          "word": " that",
+          "probability": 0.9992468357086182
+        },
+        {
+          "start": 217.0,
+          "end": 217.34,
+          "word": " matter.",
+          "probability": 0.9997015595436096
+        }
+      ]
+    },
+    {
+      "start": 217.74,
+      "end": 219.7,
+      "text": " If you're looking for a reliable professional",
+      "words": [
+        {
+          "start": 217.74,
+          "end": 217.96,
+          "word": " If",
+          "probability": 0.9933585524559021
+        },
+        {
+          "start": 217.96,
+          "end": 218.1,
+          "word": " you're",
+          "probability": 0.9922436475753784
+        },
+        {
+          "start": 218.1,
+          "end": 218.34,
+          "word": " looking",
+          "probability": 0.9994379878044128
+        },
+        {
+          "start": 218.34,
+          "end": 218.58,
+          "word": " for",
+          "probability": 0.999482274055481
+        },
+        {
+          "start": 218.58,
+          "end": 218.7,
+          "word": " a",
+          "probability": 0.9974143505096436
+        },
+        {
+          "start": 218.7,
+          "end": 219.12,
+          "word": " reliable",
+          "probability": 0.9976844787597656
+        },
+        {
+          "start": 219.12,
+          "end": 219.7,
+          "word": " professional",
+          "probability": 0.9968622922897339
+        }
+      ]
+    },
+    {
+      "start": 219.7,
+      "end": 222.6,
+      "text": " who understands both the conversations and the process",
+      "words": [
+        {
+          "start": 219.7,
+          "end": 220.02,
+          "word": " who",
+          "probability": 0.496487557888031
+        },
+        {
+          "start": 220.02,
+          "end": 220.5,
+          "word": " understands",
+          "probability": 0.977942943572998
+        },
+        {
+          "start": 220.5,
+          "end": 220.78,
+          "word": " both",
+          "probability": 0.990068256855011
+        },
+        {
+          "start": 220.78,
+          "end": 221.02,
+          "word": " the",
+          "probability": 0.9880616664886475
+        },
+        {
+          "start": 221.02,
+          "end": 221.46,
+          "word": " conversations",
+          "probability": 0.9848747849464417
+        },
+        {
+          "start": 221.46,
+          "end": 222.06,
+          "word": " and",
+          "probability": 0.970840573310852
+        },
+        {
+          "start": 222.06,
+          "end": 222.22,
+          "word": " the",
+          "probability": 0.9867588877677917
+        },
+        {
+          "start": 222.22,
+          "end": 222.6,
+          "word": " process",
+          "probability": 0.9884734749794006
+        }
+      ]
+    },
+    {
+      "start": 222.6,
+      "end": 224.68,
+      "text": " behind lead generation and lead management,",
+      "words": [
+        {
+          "start": 222.6,
+          "end": 222.98,
+          "word": " behind",
+          "probability": 0.9962713718414307
+        },
+        {
+          "start": 222.98,
+          "end": 223.2,
+          "word": " lead",
+          "probability": 0.8593621850013733
+        },
+        {
+          "start": 223.2,
+          "end": 223.68,
+          "word": " generation",
+          "probability": 0.9878143072128296
+        },
+        {
+          "start": 223.68,
+          "end": 224.0,
+          "word": " and",
+          "probability": 0.9906895160675049
+        },
+        {
+          "start": 224.0,
+          "end": 224.18,
+          "word": " lead",
+          "probability": 0.9936718940734863
+        },
+        {
+          "start": 224.18,
+          "end": 224.68,
+          "word": " management,",
+          "probability": 0.9977565407752991
+        }
+      ]
+    },
+    {
+      "start": 225.14,
+      "end": 226.78,
+      "text": " I'd be glad to learn about your business,",
+      "words": [
+        {
+          "start": 225.14,
+          "end": 225.36,
+          "word": " I'd",
+          "probability": 0.9863663017749786
+        },
+        {
+          "start": 225.36,
+          "end": 225.46,
+          "word": " be",
+          "probability": 0.9991446733474731
+        },
+        {
+          "start": 225.46,
+          "end": 225.7,
+          "word": " glad",
+          "probability": 0.9974715709686279
+        },
+        {
+          "start": 225.7,
+          "end": 225.9,
+          "word": " to",
+          "probability": 0.9991050362586975
+        },
+        {
+          "start": 225.9,
+          "end": 226.04,
+          "word": " learn",
+          "probability": 0.998878538608551
+        },
+        {
+          "start": 226.04,
+          "end": 226.24,
+          "word": " about",
+          "probability": 0.9973570108413696
+        },
+        {
+          "start": 226.24,
+          "end": 226.42,
+          "word": " your",
+          "probability": 0.9982631802558899
+        },
+        {
+          "start": 226.42,
+          "end": 226.78,
+          "word": " business,",
+          "probability": 0.9986284971237183
+        }
+      ]
+    },
+    {
+      "start": 227.16,
+      "end": 230.5,
+      "text": " understand your goals, and discuss how I can contribute to your team.",
+      "words": [
+        {
+          "start": 227.16,
+          "end": 227.56,
+          "word": " understand",
+          "probability": 0.9965901374816895
+        },
+        {
+          "start": 227.56,
+          "end": 227.76,
+          "word": " your",
+          "probability": 0.9972429275512695
+        },
+        {
+          "start": 227.76,
+          "end": 228.06,
+          "word": " goals,",
+          "probability": 0.998955488204956
+        },
+        {
+          "start": 228.38,
+          "end": 228.56,
+          "word": " and",
+          "probability": 0.998267412185669
+        },
+        {
+          "start": 228.56,
+          "end": 228.84,
+          "word": " discuss",
+          "probability": 0.9964050054550171
+        },
+        {
+          "start": 228.84,
+          "end": 229.12,
+          "word": " how",
+          "probability": 0.9975807666778564
+        },
+        {
+          "start": 229.12,
+          "end": 229.26,
+          "word": " I",
+          "probability": 0.9931207299232483
+        },
+        {
+          "start": 229.26,
+          "end": 229.42,
+          "word": " can",
+          "probability": 0.9975966811180115
+        },
+        {
+          "start": 229.42,
+          "end": 229.78,
+          "word": " contribute",
+          "probability": 0.9975119829177856
+        },
+        {
+          "start": 229.78,
+          "end": 230.1,
+          "word": " to",
+          "probability": 0.9983944296836853
+        },
+        {
+          "start": 230.1,
+          "end": 230.22,
+          "word": " your",
+          "probability": 0.9980103373527527
+        },
+        {
+          "start": 230.22,
+          "end": 230.5,
+          "word": " team.",
+          "probability": 0.9986613988876343
+        }
+      ]
+    },
+    {
+      "start": 231.0,
+      "end": 232.92,
+      "text": " Thank you for taking the time to get to know me.",
+      "words": [
+        {
+          "start": 231.0,
+          "end": 231.2,
+          "word": " Thank",
+          "probability": 0.9920936226844788
+        },
+        {
+          "start": 231.2,
+          "end": 231.36,
+          "word": " you",
+          "probability": 0.9982089996337891
+        },
+        {
+          "start": 231.36,
+          "end": 231.52,
+          "word": " for",
+          "probability": 0.9973406195640564
+        },
+        {
+          "start": 231.52,
+          "end": 231.7,
+          "word": " taking",
+          "probability": 0.9978786706924438
+        },
+        {
+          "start": 231.7,
+          "end": 231.94,
+          "word": " the",
+          "probability": 0.9925516843795776
+        },
+        {
+          "start": 231.94,
+          "end": 232.14,
+          "word": " time",
+          "probability": 0.9994301199913025
+        },
+        {
+          "start": 232.14,
+          "end": 232.3,
+          "word": " to",
+          "probability": 0.9985161423683167
+        },
+        {
+          "start": 232.3,
+          "end": 232.42,
+          "word": " get",
+          "probability": 0.9955337047576904
+        },
+        {
+          "start": 232.42,
+          "end": 232.58,
+          "word": " to",
+          "probability": 0.9974675178527832
+        },
+        {
+          "start": 232.58,
+          "end": 232.72,
+          "word": " know",
+          "probability": 0.9976229071617126
+        },
+        {
+          "start": 232.72,
+          "end": 232.92,
+          "word": " me.",
+          "probability": 0.9987844824790955
+        }
+      ]
+    },
+    {
+      "start": 233.34,
+      "end": 234.7,
+      "text": " I look forward to working with you.",
+      "words": [
+        {
+          "start": 233.34,
+          "end": 233.44,
+          "word": " I",
+          "probability": 0.9969927072525024
+        },
+        {
+          "start": 233.44,
+          "end": 233.56,
+          "word": " look",
+          "probability": 0.9967111349105835
+        },
+        {
+          "start": 233.56,
+          "end": 233.82,
+          "word": " forward",
+          "probability": 0.999467670917511
+        },
+        {
+          "start": 233.82,
+          "end": 234.06,
+          "word": " to",
+          "probability": 0.998241662979126
+        },
+        {
+          "start": 234.06,
+          "end": 234.22,
+          "word": " working",
+          "probability": 0.9988799691200256
+        },
+        {
+          "start": 234.22,
+          "end": 234.52,
+          "word": " with",
+          "probability": 0.9991306662559509
+        },
+        {
+          "start": 234.52,
+          "end": 234.7,
+          "word": " you.",
+          "probability": 0.9989996552467346
+        }
+      ]
+    }
+  ],
+  "recognition": {
+    "engine": "faster-whisper",
+    "model": "small.en",
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "network": "offline; ONNX excluded",
+    "source": "Original uploaded Intro.mp3, unchanged"
+  }
+}

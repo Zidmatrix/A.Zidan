@@ -36,12 +36,13 @@ DESIGN.md                    design and motion system
 ## Integrated assets
 * `public/profile.jpg` — real uploaded JPEG; `file.enc` was a valid JPEG, not encrypted.
 * `public/profile.webp` — optimized portrait used by the page.
-* `public/intro.mp4` — real uploaded introduction, optimized for web delivery.
-* `public/intro-poster.jpg` — still from the actual introduction.
+* `public/intro.mp3` — the user’s uploaded audio introduction, byte-identical (3:55, 3.77 MB).
+* `public/intro.vtt` — synchronized English captions transcribed from the recording.
+* `src/data/introduction.json` — matching caption cues, transcript, audio SHA-256 and precomputed waveform peaks.
 * `public/Abdulrahman-Zidan-CV.pdf` — unchanged uploaded PDF; available through the in-page reader and DOWNLOAD CV.
 * `public/fonts/` — self-hosted display/body fonts and their licenses.
 
-The real assets are already included. The user does not need to rename or upload them separately. Missing portrait/video states keep the rest of the page usable.
+The real assets are already included. The user does not need to rename or upload them separately. Missing portrait/audio states keep the rest of the page usable.
 
 ## GitHub Pages
 The public repository is https://github.com/Zidmatrix/A.Zidan. GitHub Actions is configured as the Pages source; pushes to `main` build and deploy automatically.
@@ -49,10 +50,10 @@ The public repository is https://github.com/Zidmatrix/A.Zidan. GitHub Actions is
 Published site: https://zidmatrix.github.io/A.Zidan/.
 
 ## Accessibility and resilience
-Native modal dialogs, keyboard focus restoration, Escape-to-close, visible focus, service arrow-key navigation, semantic sections, reduced motion, responsive touch controls, native video controls, WebGL constructor/error/context-loss fallback and resource cleanup. No hover-only essential information.
+Native modal dialogs, keyboard focus restoration, Escape-to-close, visible focus, service arrow-key navigation, semantic sections, reduced motion, responsive touch controls, accessible native-audio-based custom controls, WebGL constructor/error/context-loss fallback and resource cleanup. No hover-only essential information.
 
 ## Validation status
-Production build, TypeScript and export asset checks pass. Live testing verified native video playback (67.5 seconds), the original two-page CV through the in-page reader, keyboard service tabs, method/company/tool selectors, command search, mobile navigation and responsive layouts. The cloud browser disables WebGL, so the SVG fallback was verified; hardware WebGL and native fullscreen remain unverified in this environment. Portrait and video poster load from the published Pages site.
+Run `npm run typecheck`, `npm run build`, and `node scripts/check-export.mjs` for release checks. `scripts/check-audio-browser.mjs` exercises actual native playback, all three CTAs, seek/pause/rate/replay/subtitle behavior, failed-request recovery, both themes and responsive layouts. It also checks the command menu, map and CV reader. Run with Playwright available through `NODE_PATH` and an optional `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH`; set `PORTFOLIO_TEST_URL=https://zidmatrix.github.io/A.Zidan/` for live verification. Hardware-specific WebGL and physical iOS devices require device testing; browser checks cover Chromium with mobile emulation and software WebGL.
 
 ## Versions
 Stable npm package versions were checked before installation; exact dependencies and lockfile are included. Next.js 16.3.8, React 19.3.0, Motion 14.0.0 and Three.js 0.186.1. Three.js is used directly to avoid an unnecessary renderer layer. No alpha or WebGPU dependency.
@@ -69,4 +70,13 @@ Markets now include Virginia, Tennessee, Indiana, Illinois and Ohio, bringing th
 
 The header uses the real uploaded portrait. A persistent Light/Dark theme control is available in the header at all widths; preference is applied before paint and stored locally. The opening brief identifies U.S. real estate sales experience directly.
 
-Four bespoke conceptual images (headset, pipeline desk, interconnected systems, residential architecture) are locally bundled as 1440px and 640px WebP variants with responsive loading. These are editorial illustrations of the work, not client records or proof of property transactions. The real portrait, original video and unchanged CV remain integrated.
+Four bespoke conceptual images (headset, pipeline desk, interconnected systems, residential architecture) are locally bundled as 1440px and 640px WebP variants with responsive loading. These are editorial illustrations of the work, not client records or proof of property transactions. The real portrait, uploaded audio and unchanged CV remain integrated.
+
+## Audio introduction (October 2026)
+The old video is replaced by one in-page audio player. All introduction CTAs start the same recording and navigate to its framed player. Captions follow native media currentTime, including after seeking or changing speed; CC and the full transcript are available without external services. The waveform is computed from the original recording, and no media library or new runtime dependency is added. Both themes and reduced-motion preferences are respected. Audio and captions are local assets under the GitHub Pages base path.
+
+
+### Recording and caption provenance
+Original file: `Intro.mp3`, SHA-256 `6228fad4092c9b5bcca755a5dbda87e53279d89e9c1ffdd13629a21315d88778`; 3,774,390 bytes; 234.840813 seconds; MP3 mono, 44.1 kHz, approximately 128 kbps. The source is retained unchanged as `public/intro.mp3`; no re-encoding is needed. Measured peak is −0.9 dBFS and mean level −21.7 dBFS.
+
+The recording was independently recognized with faster-whisper `small.en`, beam size 5, word timestamps, no VAD, entirely offline with the optional ONNX dependency excluded. `scripts/data/intro-recognition.json` retains the raw word times and source hash. Reviewed phrase boundaries and product spelling corrections produce 81 short English cues. The earlier erroneous “client’s experience” recognition is corrected from the actual audio to “quality of my work over time.” Caption ends are held briefly through pauses, without overlapping the next phrase. `python scripts/prepare-intro.py` regenerates JSON, matching WebVTT and waveform from this evidence using numpy and ffmpeg. None of these authoring dependencies run in the browser or GitHub Pages workflow.

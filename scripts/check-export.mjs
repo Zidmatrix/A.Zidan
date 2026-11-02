@@ -1,9 +1,10 @@
-import {readFile,stat} from 'node:fs/promises';
+import {readFile,stat,access} from 'node:fs/promises';
 import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
 const html=await readFile('out/index.html','utf8');
 const expected=['top','about','services','method','experience','markets','proof','systems','introduction','cv','contact'];
 for(const id of expected) assert(html.includes(`id="${id}"`),`Missing section: ${id}`);
-for(const file of ['profile.jpg','profile.webp','intro.mp4','intro-poster.jpg','cv/page-1.webp','cv/page-2.webp','Abdulrahman-Zidan-CV.pdf','fonts/display.woff2','fonts/body.woff2','fonts/body-semibold.woff2','icon.svg','sitemap.xml','robots.txt']) {
+for(const file of ['profile.jpg','profile.webp','intro.mp3','intro.vtt','cv/page-1.webp','cv/page-2.webp','Abdulrahman-Zidan-CV.pdf','fonts/display.woff2','fonts/body.woff2','fonts/body-semibold.woff2','icon.svg','sitemap.xml','robots.txt']) {
  const source=await stat(`public/${file}`),output=await stat(`out/${file}`);
  assert(source.size>0&&source.size===output.size,`Missing or truncated asset: ${file}`);
 }
@@ -16,7 +17,9 @@ for(const path of html.matchAll(/(?:src|href)="(\/A\.Zidan\/[^"#?]+)"/g)) {
  const local=path[1].slice('/A.Zidan/'.length);
  if(!local.endsWith('/'))assert((await stat(`out/${local}`)).size>0,`Broken export reference: ${local}`);
 }
-assert(html.includes('src="/A.Zidan/profile.webp"')&&html.includes('src="/A.Zidan/intro-poster.jpg"'),'Real portrait and video poster must be integrated');
+assert(html.includes('src="/A.Zidan/profile.webp"')&&html.includes('src="/A.Zidan/intro.mp3"'),'Real portrait and audio introduction must be integrated');
+assert(!html.includes('<video')&&!html.includes('intro.mp4')&&!html.includes('intro-poster.jpg'),'Old video must not render');
+assert(html.includes('preload="none"')&&html.includes('Synchronized English subtitles')&&html.includes('READ THE FULL TRANSCRIPT'),'On-demand audio and accessible subtitles/transcript must render');
 assert(html.includes('Abdulrahman')&&html.includes('Zidan'),'Identity missing');
 console.log('PASS: all sections, anchors, assets, local fonts, embedded CV and PDF download and exported file references.');
 
@@ -47,3 +50,28 @@ console.log('PASS: ten unique licensed stock photos, responsive variants and pro
 assert(html.includes('href="mailto:abd3lra7manzidan@gmail.com"'),'Correct contact email must render');
 assert(!html.includes('abd3lra7man'+'@gmail.com'),'Incorrect contact email must not render');
 assert(html.includes('Rotate your phone to landscape'),'Phone map orientation notice missing');
+
+const vtt=await readFile('out/intro.vtt','utf8');
+assert(vtt.startsWith('WEBVTT\n'),'WebVTT header missing');
+const cues=[...vtt.matchAll(/(\d{2}:\d{2}:\d{2}\.\d{3}) --> (\d{2}:\d{2}:\d{2}\.\d{3})\n([^\n]+)/g)];
+assert(cues.length>50,'Full introduction captions must survive export');
+const seconds=s=>s.split(':').reduce((a,v)=>a*60+Number(v),0);
+let previous=0;
+for(const cue of cues){const start=seconds(cue[1]),end=seconds(cue[2]);assert(start>=previous&&end>start&&end<=234.841,'Invalid or out-of-order caption cue');previous=start;}
+assert(seconds(cues.at(-1)[2])>230,'Subtitles must cover the closing words');
+assert((await stat('out/intro.mp3')).size<4000000,'Audio exceeds original upload size budget');
+console.log('PASS: original MP3, on-demand playback, full timed subtitles/transcript and video replacement.');
+
+const intro=JSON.parse(await readFile('src/data/introduction.json','utf8'));
+assert.equal(createHash('sha256').update(await readFile('out/intro.mp3')).digest('hex'),intro.sha256,'Published audio must be byte-identical to the uploaded source');
+assert.equal(cues.length,intro.captions.length,'VTT and application must contain the same captions');
+for(let i=0;i<cues.length;i++){
+ const cue=intro.captions[i];
+ assert.equal(Math.round(seconds(cues[i][1])*1000),Math.round(cue.start*1000));assert.equal(Math.round(seconds(cues[i][2])*1000),Math.round(cue.end*1000));assert.equal(cues[i][3],cue.text);
+ assert(cue.end-cue.start>=1.1 && cue.text.length<=85,'Subtitle must remain readable');
+ if(i)assert(cue.start>=intro.captions[i-1].end,'Caption overlap');
+}
+assert.equal(intro.waveform.length,100);assert(intro.waveform.every(p=>p>0&&p<=1),'Invalid precomputed waveform');
+assert.equal((html.match(/<audio /g)||[]).length,1,'All introduction CTAs must share one audio');
+for(const old of ['intro.mp4','intro-poster.jpg'])await assert.rejects(access(`out/${old}`),'Old video assets must not ship');
+console.log('PASS: source audio SHA-256, matching JSON/WebVTT, readable nonoverlapping cues, single media instance and no shipped video.');

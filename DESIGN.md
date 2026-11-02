@@ -14,10 +14,14 @@ Native scrolling only. Pointer-reactive WebGL lead paths on desktop; animated pr
 Reduced motion removes the ticker, entry animations, cursor and magnetic effects, and uses static SVG instead of WebGL. Mobile has a deliberately vertical composition, a full-screen navigation dialog, touch-first controls, and a lightweight SVG signal.
 
 ## Asset presentation
-Actual 640×640 portrait in a large editorial frame in About. Actual 1280×720 introduction (67.49 seconds) in an immersive native dialog with standard playback, volume, seek and fullscreen controls. Poster taken from the real video. A ~11 MB H.264/AAC fast-start MP4 is used instead of the ~35 MB original. Video is not requested until opening the player. Original CV bytes are preserved and display inside the website, with the unchanged PDF available for download.
+Actual 640×640 portrait in a large editorial frame in About. The uploaded 3:55 MP3 is preserved byte for byte in an inline editorial audio frame. A microphone emblem and a waveform derived from the recording accompany native audio playback, keyboard/touch seeking, skip controls, mute, speed control, synchronized English subtitles and a full transcript. Waveform peaks are precomputed; preload="none" defers audio transfer until requested. No video or old video poster is shipped. Original CV bytes are preserved and display inside the website, with the unchanged PDF available for download.
 
 ## Content accuracy
 The supplied creative brief governs site claims and contact details: 3+ years, approximately one year of Lead Manager experience, seven named companies, real estate and solar. The supplied PDF has different contact details, a 4+ years claim, an additional company and education timing; it is kept unchanged, and those discrepancies are not silently copied into site copy. Appointment setting and virtual assistance are capabilities, not invented employment records.
 
 ## Remaining review
-The current build is a first implementation of the selected direction, not a claim of an independently judged agency budget or award. Browser visual QA and live GitHub Pages verification are required before declaring the website finished. English subtitles have not been supplied or fabricated.
+The current build is a first implementation of the selected direction, not a claim of an independently judged agency budget or award. Browser visual QA and live GitHub Pages verification are required before declaring the website finished. English subtitles are transcribed from the uploaded recording, aligned to word timestamps, and grouped into short readable cues. The WebVTT and application caption data use the same timing source.
+
+
+## Audio design references
+Reviewed [Midlife Engineering](https://www.awwwards.com/sites/midlife-engineering) for restrained sound controls and [Daydream Player](https://www.awwwards.com/sites/daydream-player) for a deliberate, tactile player hierarchy. The chosen adaptation keeps SIGNAL’s existing typefaces, colors and page structure: a narrow editorial panel, fine corner marks, a custom line microphone, a prominent circular play control, the recording’s precomputed waveform and a dedicated caption well. Mobile stacks the two panels and retains 44px controls. The subtitle area reserves space for every cue, and the complete transcript uses readable paragraphs.

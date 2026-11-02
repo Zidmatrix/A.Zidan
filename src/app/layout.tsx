@@ -5,6 +5,7 @@ import './premium.css';
 import './hero-detail.css';
 import './section-photos.css';
 import './refinements.css';
+import './audio-introduction.css';
 export const metadata: Metadata = {
  metadataBase: new URL('https://zidmatrix.github.io'),
  title:'Abdulrahman Zidan — Real Estate Sales & Lead Management',
